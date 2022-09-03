@@ -1,0 +1,183 @@
+[
+  {
+    "name": "黃白游",
+    "category": "立春",
+    "r": 255,
+    "g": 247,
+    "b": 153,
+    "hex": "#fff799",
+    "sentence": "欲識金銀氣，多從黃白遊；一生癡絕處，無夢到徽州。",
+    "author": "湯顯祖",
+    "sentenceFrom":"有友人憐予乏勸為黃山白岳之遊",
+    "fontColor": "#343333"
+  },
+  {
+    "name": "松花",
+    "category": "立春",
+    "r": 255,
+    "g": 238,
+    "b": 111,
+    "hex": "#ffee6f",
+    "sentence": "輕如松花落金粉，濃似苔錦含碧滋。",
+    "author": "李白",
+    "sentenceFrom":"酬殷明佐見贈五云裘歌",
+    "fontColor": "#343333"
+  },
+  {
+    "name": "緗葉",
+    "category": "立春",
+    "r": 236,
+    "g": 212,
+    "b": 82,
+    "hex": "#ecd452",
+    "sentence": "魚戲排緗葉，龜浮見綠池。",
+    "author": "李嶠",
+    "sentenceFrom":"荷",
+    "fontColor": "#343333"
+  },
+  {
+    "name": "蒼黃",
+    "category": "立春",
+    "r": 182,
+    "g": 160,
+    "b": 20,
+    "hex": "#b6a014",
+    "sentence": "土花漠碧雲茫茫，黃河欲盡天蒼黃。",
+    "author": "李商隱",
+    "sentenceFrom":"李夫人歌"
+  },
+  {
+    "name": "天縹",
+    "category": "立春",
+    "r": 213,
+    "g": 235,
+    "b": 225,
+    "hex": "#d5ebe1",
+    "sentence": "篷窗窺天縹，江水真安流；雪霽艷朱炎，相思登北樓。",
+    "author": "吳敬梓",
+    "sentenceFrom":"臘月將之宣城留別蘧門",
+    "fontColor": "#343333"
+  },
+  {
+    "name": "滄浪",
+    "category": "立春",
+    "r": 177,
+    "g": 213,
+    "b": 200,
+    "hex": "#b1d5c8",
+    "sentence": "水色滄浪，波濤浩汗。",
+    "author": "玄奘",
+    "sentenceFrom":"大唐西域記",
+    "fontColor": "#343333"
+  },
+  {
+    "name": "蒼筤",
+    "category": "立春",
+    "r": 153,
+    "g": 188,
+    "b": 172,
+    "hex": "#99bcac",
+    "sentence": "石家炫炫珊瑚勝，不及蒼莨一尺青。",
+    "author": "王應鬥",
+    "sentenceFrom":"題鄒氏盆景四絕"
+  },
+  {
+    "name": "縹碧",
+    "category": "立春",
+    "r": 128,
+    "g": 164,
+    "b": 146,
+    "hex": "#80a492",
+    "sentence": "縹色玉擎柔，醅浮盞面清。",
+    "author": "李煜",
+    "sentenceFrom":"子夜歌"
+  },
+  {
+    "name": "流黃",
+    "category": "立春",
+    "r": 139,
+    "g": 112,
+    "b": 66,
+    "hex": "#8070d2",
+    "sentence": "慙幽閨之琴瑟，晦高台之流黃。",
+    "author": "江淹",
+    "sentenceFrom":"別賦"
+  },
+  {
+    "name": "栗殼",
+    "category": "立春",
+    "r": 139,
+    "g": 112,
+    "b": 66,
+    "hex": "#8070d2",
+    "sentence": "栗殼黃腴猿哺子，松巢碧冷鶴溫雛；道人鍊罷芙蓉鼎，紫玉簫橫鳳繞梧。",
+    "author": "陶安",
+    "sentenceFrom":"葆和觀"
+  },
+  {
+    "name": "龍戰",
+    "category": "立春",
+    "r": 95,
+    "g": 67,
+    "b": 33,
+    "hex": "#5f4321",
+    "sentence": "登舟既虎嘯，激水方龍戰。",
+    "author": "李白",
+    "sentenceFrom":"觀飲飛斬蛟龍圖贊"
+  },
+  {
+    "name": "青驪",
+    "category": "立春",
+    "r": 66,
+    "g": 37,
+    "b": 23,
+    "hex": "#422517",
+    "sentence": "長安俠客矜年少，青驪緩步章台道。",
+    "author": "盧楠",
+    "sentenceFrom":"少年行二首"
+  },
+  {
+    "name": "海天霞",
+    "category": "立春",
+    "r": 243,
+    "g": 166,
+    "b": 148,
+    "hex": "#f3a694",
+    "sentence": "漫花棚錦繡窠，海霞色上輕羅；鬥雞打馬消長晝爛，春光戲裡過。",
+    "author": "史夢蘭",
+    "sentenceFrom":"宮詞"
+  },
+  {
+    "name": "縉雲",
+    "category": "立春",
+    "r": 238,
+    "g": 121,
+    "b": 89,
+    "hex": "#ee7959",
+    "sentence": "蒸栗絹紺縉紅繎，。青綺綾谷靡潤鮮。",
+    "author": "史遊",
+    "sentenceFrom":"急就篇"
+  },
+  {
+    "name": "纁黃",
+    "category": "立春",
+    "r": 186,
+    "g": 81,
+    "b": 64,
+    "hex": "#ba5140",
+    "sentence": "一曲纁黃瓜蔓水，數峰蒼翠華陰山。",
+    "author": "張問陶",
+    "sentenceFrom":"潼關"
+  },
+  {
+    "name": "珊瑚赫",
+    "category": "立春",
+    "r": 193,
+    "g": 44,
+    "b": 31,
+    "hex": "#c12c1f",
+    "sentence": "四弦才罷醉蠻奴，酃醁馀香在翠爐。夜半醒來紅蠟短，一枝寒淚作珊瑚。",
+    "author": "皮日休",
+    "sentenceFrom":"春夕酒醒"
+  }
+]
