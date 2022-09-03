@@ -1,24 +1,27 @@
 <template>
   <div class="w100 h100 color" :style="containerStyle">
     <div class="w100 h100 color-container">
-      <div class="color-container-color">
-        <div class="solarterm">{{colorObj.category}}</div>
-        <div
-          v-for="(item, index) in colorData"
-          :key="index"
-          @click="setColor(item)"
-          :style="{borderBottomColor: item.hex}"
-        >
-          {{ item.name }}
+      <div class="h100 color-container-color">
+        <div v-for="(color, index) in colorData" :key="index">
+          <div class="solarterm">{{ color[0].category }}</div>
+          <div >
+            <div
+              v-for="(item, i) in color"
+              :key="`${index}_${i}`"
+              @click="setColor(item)"
+            >
+              <span>{{ item.name }}</span>
+              <i :style="{ background: item.hex }" />
+            </div>
+          </div>
         </div>
-        <br />
       </div>
       <div :class="['color-container-name', isActive ? 'active' : '']">
         <h2>
           <span
             v-for="(item, index) in colorObj.name.split('')"
             :key="index"
-            :style="{ animationDelay: `${index * 0.1 }s` }"
+            :style="{ animationDelay: `${index * 0.1}s` }"
           >
             {{ item }}
           </span>
@@ -43,7 +46,11 @@
             :style="{ animationDelay: `${getTime(index)}s` }"
           >
             {{ item }}
-            <br v-if="item === '，' || item === '。' || item === '；' || item === '、'" />
+            <br
+              v-if="
+                item === '，' || item === '。' || item === '；' || item === '、'
+              "
+            />
           </span>
         </div>
         <div class="sentenceFrom">
@@ -54,6 +61,7 @@
             :style="{ animationDelay: `${getTime(index)}s` }"
           >
             {{ item }}
+            <br v-if="item === ' '" />
           </span>
         </div>
       </div>
@@ -66,7 +74,7 @@ import ColorJson from '@/global/color.json'
 export default {
   data() {
     return {
-      colorData: {},
+      colorData: [],
       colorArr: [],
       isActive: false,
       colorObj: {
@@ -94,7 +102,7 @@ export default {
   },
   mounted() {
     this.colorData = ColorJson
-    let defaultData = this.colorData[0]
+    let defaultData = this.colorData[0][0]
     this.setColor(defaultData)
   },
   methods: {
@@ -123,12 +131,22 @@ export default {
         time = 1
         break
       }
-      return time * 0.7 + 0.4
+      return time * Math.random() + 0.4
     },
     setColor(color) {
       this.isActive = false
       setTimeout(() => {
-        let { name, r, g, b, hex, sentence, sentenceFrom, category, fontColor } = color
+        let {
+          name,
+          r,
+          g,
+          b,
+          hex,
+          sentence,
+          sentenceFrom,
+          category,
+          fontColor
+        } = color
         this.colorObj = {
           name,
           r,
@@ -148,44 +166,81 @@ export default {
 </script>
 
 <style scoped lang="less">
+@import "@/assets/css/common.less";
 .color {
   &-container {
     width: 1100px;
     margin: 0 auto;
     position: relative;
     &-color {
+      // width: 650px;
       position: absolute;
-      top: 50px;
+      top: 0;
       left: 0;
-      display: flex;
-      width: 650px;
-      flex-wrap: wrap;
-      div {
-        margin-right: 20px;
-        display: inline-block;
-        width: max-content;
-        padding-bottom: 20px;
-        padding: 15px 0px 5px;
-        border-bottom-width: 2px;
-        border-bottom-style: solid;
-        cursor: pointer;
+      height: calc(100vh - 20px);
+      overflow-y: scroll;
+      .scrollbar-hide();
+      & > div {
+        position: relative;
+        top: 50px;
+        display: flex;
+        letter-spacing: 3px;
+        & > div {
+          left: 0;
+          // display: flex;
+          // flex-wrap: wrap;
+          width: 360px;
+          padding-bottom: 20px;
+          display: flex;
+          flex-wrap: wrap;
+          div {
+             
+            writing-mode: vertical-lr;
+            margin-bottom: 20px;
+            margin-right: 20px;
+            display: inline-block;
+            padding-bottom: 20px;
+            padding: 0px 5px 0 0px;
+            cursor: pointer;
+            letter-spacing: 4px;
+            position: relative;
+
+            span{
+              position: relative;
+              z-index: 2;
+              // font-size: px;
+            }
+            i {
+              display: inline-block;
+              position: absolute;
+              right: 6px;
+              top: -2px;
+              width: 6px;
+              height: 25px;
+              z-index: 1;
+              border-radius: 2px;
+              // border-top-left-radius: 0;
+              // border-top-left-radius: 0;
+              // opacity: 0.5;
+            }
+          }
+        }
       }
-      .solarterm{
-        position: absolute;
-        left: -70px;
-        top:50%;
-        transform: translateY(-50%);
-        border:none;
+
+      .solarterm {
+        writing-mode: vertical-lr;
+        width: 65px;
       }
     }
     &-name {
       position: absolute;
-      top: 25vh;
+      top: 20vh;
       right: 0;
-      h2{
-        font-size: 70px;
+      h2 {
+        font-size: 80px;
+        writing-mode: vertical-lr;
       }
-      h4{
+      h4 {
         padding-top: 15px;
         font-size: 22px;
         text-align: right;

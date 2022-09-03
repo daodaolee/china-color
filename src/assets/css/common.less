@@ -3,16 +3,20 @@
 
 @font-face {
   font-family: 'wanghanzongyankaiti';
+
   src:
     url('../font/wanghanzongyankaiti.ttf');
   font-weight: normal;
   font-style: normal;
 }
-html,body{
+
+html,
+body {
   width: 100%;
   height: 100%;
   font-family: 'wanghanzongyankaiti'
 }
+
 #app {
   width: 100%;
   height: 100%;
@@ -52,24 +56,29 @@ html,body{
     height: 0px;
     width: 0px;
   }
+
   &::-webkit-scrollbar-track {
     background-color: transparent;
   }
+
   &::-webkit-scrollbar-thumb {
     background-color: transparent;
     border-radius: 0px;
   }
 }
+
 // 滚动条展示
 .scrollbar-show() {
   &::-webkit-scrollbar {
     height: 5px;
     width: 5px;
   }
+
   // 轨道
   &::-webkit-scrollbar-track {
     background-color: #ffffff;
   }
+
   // 滑块
   &::-webkit-scrollbar-thumb {
     background-color: #ececec;
@@ -87,6 +96,7 @@ html,body{
     -webkit-tap-highlight-color: transparent;
     outline: none;
   }
+
   a:link,
   a:hover,
   a:active,
