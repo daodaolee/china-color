@@ -189,8 +189,8 @@ export default {
           left: 0;
           // display: flex;
           // flex-wrap: wrap;
-          width: 360px;
-          padding-bottom: 20px;
+          width: 380px;
+          padding-bottom: 50px;
           display: flex;
           flex-wrap: wrap;
           div {
@@ -208,7 +208,7 @@ export default {
             span{
               position: relative;
               z-index: 2;
-              // font-size: px;
+              font-size: 18px;
             }
             i {
               display: inline-block;
