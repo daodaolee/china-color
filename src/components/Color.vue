@@ -242,9 +242,9 @@ export default {
       top: 14vh;
       right: 0;
       h2 {
-        font-size: 6em;
+        font-size: 5em;
         writing-mode: vertical-lr;
-        letter-spacing: 10px;
+        // letter-spacing: 10px;
       }
       h4 {
         padding-top: 15px;
