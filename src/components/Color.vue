@@ -1,10 +1,17 @@
 <template>
   <div class="w100 h100 color" :style="containerStyle">
+    <div class="color-wrapper"></div>
     <div class="w100 h100 color-container">
       <div class="h100 color-container-color">
-        <div v-for="(color, index) in colorData" :key="index">
-          <div class="solarterm">{{ color[0].category }}</div>
-          <div >
+        <div
+          class="color-container-color-item"
+          v-for="(color, index) in colorData"
+          :key="index"
+        >
+          <div class="color-container-color-item-solarterm">
+            {{ color[0].category }}
+          </div>
+          <div class="color-container-color-item-block">
             <div
               v-for="(item, i) in color"
               :key="`${index}_${i}`"
@@ -66,6 +73,7 @@
         </div>
       </div>
     </div>
+    <p class="color-copyright">中國傳統色 故宮裡的色彩美學 二十字節氣 七十二物候 東方審美</p>
   </div>
 </template>
 
@@ -94,7 +102,7 @@ export default {
     containerStyle() {
       let { r, g, b, fontColor } = this.colorObj
       return {
-        background: `rgb(${r}, ${g}, ${b})`,
+        backgroundColor: `rgb(${r}, ${g}, ${b})`,
         transition: 'all 0.5s linear',
         color: fontColor || '#ffffff'
       }
@@ -168,44 +176,45 @@ export default {
 <style scoped lang="less">
 @import "@/assets/css/common.less";
 .color {
+  &-wrapper{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-image: url('../assets/imgs/grain.png');
+  }
   &-container {
     width: 1100px;
     margin: 0 auto;
     position: relative;
     &-color {
-      // width: 650px;
       position: absolute;
       top: 0;
       left: 0;
       height: calc(100vh - 20px);
       overflow-y: scroll;
       .scrollbar-hide();
-      & > div {
+      &-item {
         position: relative;
         top: 50px;
         display: flex;
         letter-spacing: 3px;
-        & > div {
+        &-block {
           left: 0;
-          // display: flex;
-          // flex-wrap: wrap;
           width: 380px;
           padding-bottom: 50px;
           display: flex;
           flex-wrap: wrap;
           div {
-             
             writing-mode: vertical-lr;
             margin-bottom: 20px;
             margin-right: 20px;
             display: inline-block;
-            padding-bottom: 20px;
+            // padding-bottom: 20px;
             padding: 0px 5px 0 0px;
             cursor: pointer;
             letter-spacing: 4px;
             position: relative;
-
-            span{
+            span {
               position: relative;
               z-index: 2;
               font-size: 18px;
@@ -213,32 +222,29 @@ export default {
             i {
               display: inline-block;
               position: absolute;
-              right: 6px;
+              right: 7px;
               top: -2px;
               width: 6px;
               height: 25px;
               z-index: 1;
               border-radius: 2px;
-              // border-top-left-radius: 0;
-              // border-top-left-radius: 0;
-              // opacity: 0.5;
             }
           }
         }
-      }
-
-      .solarterm {
-        writing-mode: vertical-lr;
-        width: 65px;
+        &-solarterm {
+          writing-mode: vertical-lr;
+          width: 65px;
+        }
       }
     }
     &-name {
       position: absolute;
-      top: 20vh;
+      top: 14vh;
       right: 0;
       h2 {
-        font-size: 80px;
+        font-size: 6em;
         writing-mode: vertical-lr;
+        letter-spacing: 10px;
       }
       h4 {
         padding-top: 15px;
@@ -290,6 +296,17 @@ export default {
         }
       }
     }
+  }
+  &-copyright{
+    writing-mode: vertical-lr;
+    position: absolute;
+    right: 5px;
+    top:50%;
+    font-size: 14px;
+    opacity: 0.5;
+    transform: translateY(-50%);
+    letter-spacing: 10px;
+    height: max-content;
   }
 }
 
