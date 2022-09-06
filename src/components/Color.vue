@@ -17,9 +17,11 @@
               :key="`${index}_${i}`"
               @click="setColor(item)"
             >
-              <span>{{ item.name }}</span>
-              <i :style="{ background: item.hex }" />
-            </div>
+              <span>
+                {{ item.name }} 
+               </span>
+               <i :style="{ background: item.hex }" />
+            </div> 
           </div>
         </div>
       </div>
@@ -33,15 +35,6 @@
             {{ item }}
           </span>
         </h2>
-        <!-- <h4>
-          <span
-            v-for="(item, index) in colorObj.category.split('')"
-            :key="index"
-            :style="{ animationDelay: `${index * 0.1 + 0.5}s` }"
-          >
-            {{ item }}
-          </span>
-        </h4> -->
       </div>
 
       <div class="color-container-sentence">
@@ -183,57 +176,55 @@ export default {
     background-image: url('../assets/imgs/grain.png');
   }
   &-container {
-    width: 1100px;
+    max-width: 75%;
     margin: 0 auto;
     position: relative;
     &-color {
       position: absolute;
       top: 0;
       left: 0;
-      height: calc(100vh - 20px);
+      height: calc(100vh - 2em);
       overflow-y: scroll;
       .scrollbar-hide();
       &-item {
         position: relative;
-        top: 50px;
+        top: 3.125em;
         display: flex;
-        letter-spacing: 3px;
+        letter-spacing: 0.1825em;
         &-block {
           left: 0;
-          width: 380px;
-          padding-bottom: 50px;
+          width: 24em;
+          padding-bottom: 3.125em;
           display: flex;
           flex-wrap: wrap;
           div {
             writing-mode: vertical-lr;
-            margin-bottom: 20px;
-            margin-right: 20px;
+            padding: 0 0.85em 1.12em;
             display: inline-block;
-            // padding-bottom: 20px;
-            padding: 0px 5px 0 0px;
             cursor: pointer;
-            letter-spacing: 4px;
+            letter-spacing: 0.25em;
             position: relative;
             span {
               position: relative;
               z-index: 2;
-              font-size: 18px;
+              font-size: 1.125em;
+              font-size: 1em;
             }
             i {
               display: inline-block;
               position: absolute;
-              right: 7px;
-              top: -2px;
-              width: 6px;
-              height: 25px;
+              right: 0.96em;
+              top: -0.125em;
+              width: 0.375em;
+              height: 1.5625em;
               z-index: 1;
-              border-radius: 2px;
+              border-radius: 0.125em;
             }
           }
         }
         &-solarterm {
           writing-mode: vertical-lr;
-          width: 65px;
+          width: 4.0625em;
         }
       }
     }
@@ -241,16 +232,10 @@ export default {
       position: absolute;
       top: 14vh;
       right: 0;
+      display: block;
       h2 {
         font-size: 5em;
         writing-mode: vertical-lr;
-        // letter-spacing: 10px;
-      }
-      h4 {
-        padding-top: 15px;
-        font-size: 22px;
-        text-align: right;
-        padding-right: 10px;
       }
       &.active {
         span {
@@ -262,8 +247,8 @@ export default {
     &-sentence {
       writing-mode: vertical-rl;
       position: absolute;
-      bottom: 35px;
-      right: 0px;
+      bottom: 2.1em;
+      right: 0;
       span {
         &.active {
           opacity: 0;
@@ -271,26 +256,26 @@ export default {
         }
       }
       .sentence {
+        display: block;
         span {
-          font-size: 22px;
+          font-size: 1.375em;
         }
       }
       .sentenceFrom {
-        padding-right: 20px;
-        // padding-top: 30px;
+        padding-right: 1.25em;
         span {
           &:first-child {
             &:before {
               content: "「";
               position: relative;
-              top: 5px;
+              top: 0.375em
             }
           }
           &:last-child {
             &:after {
               content: "」";
               position: relative;
-              bottom: 5px;
+              bottom: 0.375em
             }
           }
         }
@@ -300,12 +285,12 @@ export default {
   &-copyright{
     writing-mode: vertical-lr;
     position: absolute;
-    right: 5px;
-    top:50%;
-    font-size: 14px;
+    right: 0.3125em;
+    top: 50%;
+    font-size: 0.875em;
     opacity: 0.5;
     transform: translateY(-50%);
-    letter-spacing: 10px;
+    letter-spacing: 0.625em;
     height: max-content;
   }
 }
@@ -318,5 +303,34 @@ export default {
   to {
     opacity: 1;
   }
+}
+
+@media screen and (max-width:780px){
+  .color-container{
+    max-width: 100vw;
+  }
+    .color-container-color{
+      display: none;
+    }
+    .color-container-name{
+      width: 100vw;
+      display: flex;
+      justify-content: center;
+      // left: 50%;
+      // transform: translateX(-50%);
+      // width: max-content;
+    }
+    .color-container-sentence{
+      width: 100vw;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      // right: 50%;
+      // transform: translateX(-50%);
+      // width: max-content;
+    }
+    .color-copyright{
+      display: none;
+    }
 }
 </style>
