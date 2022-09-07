@@ -135,6 +135,9 @@ export default {
       return time * Math.random() + 0.4
     },
     setColor(color) {
+      if (color.name === this.colorObj.name){
+        return
+      }
       this.isActive = false
       setTimeout(() => {
         let {
@@ -176,7 +179,7 @@ export default {
     background-image: url('../assets/imgs/grain.png');
   }
   &-container {
-    max-width: 75%;
+    max-width: 1000px;
     margin: 0 auto;
     position: relative;
     &-color {
@@ -193,13 +196,13 @@ export default {
         letter-spacing: 0.1825em;
         &-block {
           left: 0;
-          width: 24em;
-          padding-bottom: 3.125em;
+          width: 23.1em;
+          padding-bottom: 2em;
           display: flex;
           flex-wrap: wrap;
           div {
             writing-mode: vertical-lr;
-            padding: 0 0.85em 1.12em;
+            padding: 0 0.85em 1em;
             display: inline-block;
             cursor: pointer;
             letter-spacing: 0.25em;
@@ -224,7 +227,7 @@ export default {
         }
         &-solarterm {
           writing-mode: vertical-lr;
-          width: 4.0625em;
+          padding-right: 1em;
         }
       }
     }
@@ -308,29 +311,34 @@ export default {
 @media screen and (max-width:780px){
   .color-container{
     max-width: 100vw;
+    position: relative;
   }
     .color-container-color{
-      display: none;
+      position: fixed;
+      top:0;
+      left:0;
+      background-color: rgba(255,255,255, 0.7);
+      z-index: 10;
     }
     .color-container-name{
       width: 100vw;
       display: flex;
       justify-content: center;
-      // left: 50%;
-      // transform: translateX(-50%);
-      // width: max-content;
     }
     .color-container-sentence{
       width: 100vw;
       display: flex;
       justify-content: center;
       flex-direction: column;
-      // right: 50%;
-      // transform: translateX(-50%);
-      // width: max-content;
     }
     .color-copyright{
       display: none;
     }
+}
+@media screen and (min-width: 781px) and (max-width: 1500px){
+  .color-container{
+    max-width: 75vw;
+    position: relative;
+  }
 }
 </style>
