@@ -207,6 +207,7 @@ export default {
             cursor: pointer;
             letter-spacing: 0.25em;
             position: relative;
+            font-size:1.125em;
             span {
               position: relative;
               z-index: 2;
