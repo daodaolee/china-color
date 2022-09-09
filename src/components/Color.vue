@@ -3,63 +3,73 @@
     <div class="color-wrapper"></div>
     <div class="w100 h100 color-container">
       <div class="h100 color-container-color">
-        <div
-          class="color-container-color-item"
-          v-for="(color, index) in colorData"
-          :key="index"
-        >
+        <div class="color-container-color-item" v-for="(color, index) in colorData" :key="index">
           <div class="color-container-color-item-solarterm">
             {{ color[0].category }}
           </div>
           <div class="color-container-color-item-block">
-            <div
-              v-for="(item, i) in color"
-              :key="`${index}_${i}`"
-              @click="setColor(item)"
-            >
+            <div v-for="(item, i) in color" :key="`${index}_${i}`" @click="setColor(item)">
               <span>
-                {{ item.name }} 
-               </span>
-               <i :style="{ background: item.hex }" />
-            </div> 
+                {{ item.name }}
+              </span>
+              <i :style="{ background: item.hex }" />
+            </div>
           </div>
         </div>
       </div>
       <div :class="['color-container-name', isActive ? 'active' : '']">
-        <h2>
-          <span
-            v-for="(item, index) in colorObj.name.split('')"
-            :key="index"
-            :style="{ animationDelay: `${index * 0.1}s` }"
-          >
+        <div class="color-container-name-title">
+          <span v-for="(item, index) in colorObj.name.split('')" :key="index"
+            :style="{ animationDelay: `${index * 0.1}s` }">
             {{ item }}
           </span>
-        </h2>
+        </div>
+        <div class="color-container-name-rgb">
+          <p>
+            <span>C</span>
+            <span>{{colorObj.r}}</span>
+          </p>
+          <p>
+            <span>M</span>
+            <span>{{colorObj.r}}</span>
+          </p>
+          <p>
+            <span>Y</span>
+            <span>{{colorObj.g}}</span>
+          </p>
+          <p>
+            <span>K</span>
+            <span>{{colorObj.b}}</span>
+          </p>
+          <p>
+            <span>R</span>
+            <span>{{colorObj.r}}</span>
+          </p>
+          <p>
+            <span>G</span>
+            <span>{{colorObj.g}}</span>
+          </p>
+          <p>
+            <span>B</span>
+            <span>{{colorObj.b}}</span>
+          </p>
+        </div>
+        
       </div>
 
       <div class="color-container-sentence">
         <div class="sentence">
-          <span
-            :class="[isActive ? 'active' : '']"
-            v-for="(item, index) in colorObj.sentence.split('')"
-            :key="index"
-            :style="{ animationDelay: `${getTime(index)}s` }"
-          >
+          <span :class="[isActive ? 'active' : '']" v-for="(item, index) in colorObj.sentence.split('')" :key="index"
+            :style="{ animationDelay: `${getTime(index)}s` }">
             {{ item }}
-            <br
-              v-if="
-                item === '，' || item === '。' || item === '；' || item === '、'
-              "
-            />
+            <br v-if="
+              item === '，' || item === '。' || item === '；' || item === '、'
+            " />
           </span>
         </div>
         <div class="sentenceFrom">
-          <span
-            :class="[isActive ? 'active' : '']"
-            v-for="(item, index) in colorObj.sentenceFrom.split('')"
-            :key="index"
-            :style="{ animationDelay: `${getTime(index)}s` }"
-          >
+          <span :class="[isActive ? 'active' : '']" v-for="(item, index) in colorObj.sentenceFrom.split('')"
+            :key="index" :style="{ animationDelay: `${getTime(index)}s` }">
             {{ item }}
             <br v-if="item === ' '" />
           </span>
@@ -135,7 +145,7 @@ export default {
       return time * Math.random() + 0.4
     },
     setColor(color) {
-      if (color.name === this.colorObj.name){
+      if (color.name === this.colorObj.name) {
         return
       }
       this.isActive = false
@@ -171,122 +181,180 @@ export default {
 
 <style scoped lang="less">
 @import "@/assets/css/common.less";
+
 .color {
-  &-wrapper{
+  &-wrapper {
     position: fixed;
     width: 100%;
     height: 100%;
     background-image: url('../assets/imgs/grain.png');
   }
+
   &-container {
     max-width: 1000px;
     margin: 0 auto;
+    // padding-right: 2em;
     position: relative;
+
     &-color {
       position: absolute;
       top: 0;
       left: 0;
-      height: calc(100vh - 2em);
+      // height: calc(100vh - 2em);
       overflow-y: scroll;
+      width: 55%;
       .scrollbar-hide();
+      
+
       &-item {
+        width:calc(100% - 0.2em);
         position: relative;
         top: 3.125em;
         display: flex;
         letter-spacing: 0.1825em;
+
         &-block {
+          width: 100%;
           left: 0;
-          width: 23.1em;
+          // width: 23.1em;
           padding-bottom: 2em;
           display: flex;
           flex-wrap: wrap;
+
           div {
+            width: 3.2em;
             writing-mode: vertical-lr;
-            padding: 0 0.85em 1em;
-            display: inline-block;
+            padding: 0 0 1em;
+            display: flex;
+            align-items: center;
             cursor: pointer;
             letter-spacing: 0.25em;
             position: relative;
-            font-size:1.125em;
+
             span {
               position: relative;
               z-index: 2;
-              font-size: 1.125em;
               font-size: 1em;
             }
+
             i {
               display: inline-block;
               position: absolute;
-              right: 0.96em;
+              right: 1em;
               top: -0.125em;
               width: 0.375em;
-              height: 1.5625em;
+              height: 1.9em;
               z-index: 1;
               border-radius: 0.125em;
             }
           }
         }
+
         &-solarterm {
           writing-mode: vertical-lr;
-          padding-right: 1em;
+          padding-right: 2.3em;
+          font-size: 1.125em;
         }
       }
     }
+
     &-name {
       position: absolute;
-      top: 14vh;
+      top: 12vh;
       right: 0;
       display: block;
-      h2 {
+
+      &-title {
         font-size: 5em;
         writing-mode: vertical-lr;
       }
+
       &.active {
         span {
           opacity: 0;
           animation: show 1.5s ease-out forwards;
         }
       }
+      &-rgb{
+        position: absolute;
+        transform: translate(0%, -10%);
+        top:0;
+        left:125%;
+        // right: 0;
+        display: flex;
+        flex-direction: column;
+        font-family: "Helvetica Neue", sans-serif;
+        p{
+          padding-bottom: 2.2em;
+          display: flex;
+          align-items: center;
+          // display: flex;
+          // flex-direction: column;
+          span:first-child{
+            // font-size: 0.3em;
+            // padding-bottom: 2em;
+            transform: scale(0.65);
+            display: inline-block;
+            // padding-right: 0.05em;
+            position:relative;
+            top: -0.7em;
+            left:0.1em
+          }
+          span:last-child{
+            font-size:1.1em;
+            // padding-top: .2em;
+            // padding-bottom: 1.5em;
+          }
+        }
+      }
     }
+
     &-sentence {
       writing-mode: vertical-rl;
       position: absolute;
-      bottom: 2.1em;
-      right: 0;
+      bottom: 0em;
+      right: 1em;
+
       span {
         &.active {
           opacity: 0;
           animation: show 1.5s linear forwards;
         }
       }
+
       .sentence {
         display: block;
+
         span {
           font-size: 1.375em;
         }
       }
+
       .sentenceFrom {
         padding-right: 1.25em;
+
         span {
           &:first-child {
             &:before {
               content: "「";
               position: relative;
-              top: 0.375em
+              top: 0.3em
             }
           }
+
           &:last-child {
             &:after {
               content: "」";
               position: relative;
-              bottom: 0.375em
+              bottom: 0.3em
             }
           }
         }
       }
     }
   }
-  &-copyright{
+
+  &-copyright {
     writing-mode: vertical-lr;
     position: absolute;
     right: 0.3125em;
@@ -309,35 +377,40 @@ export default {
   }
 }
 
-@media screen and (max-width:780px){
-  .color-container{
+@media screen and (max-width:780px) {
+  .color-container {
     max-width: 100vw;
     position: relative;
   }
-    .color-container-color{
-      position: fixed;
-      top:0;
-      left:0;
-      background-color: rgba(255,255,255, 0.7);
-      z-index: 10;
-    }
-    .color-container-name{
-      width: 100vw;
-      display: flex;
-      justify-content: center;
-    }
-    .color-container-sentence{
-      width: 100vw;
-      display: flex;
-      justify-content: center;
-      flex-direction: column;
-    }
-    .color-copyright{
-      display: none;
-    }
+
+  .color-container-color {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.7);
+    z-index: 10;
+  }
+
+  .color-container-name {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+  }
+
+  .color-container-sentence {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .color-copyright {
+    display: none;
+  }
 }
-@media screen and (min-width: 781px) and (max-width: 1500px){
-  .color-container{
+
+@media screen and (min-width: 781px) and (max-width: 1500px) {
+  .color-container {
     max-width: 75vw;
     position: relative;
   }
