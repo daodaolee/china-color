@@ -1982,7 +1982,7 @@
       "g": 173,
       "b": 185,
       "hex": "#E3ADB9",
-      "sentence": "“殘雨斜陽照，夕嵐飛鳥還。",
+      "sentence": "殘雨斜陽照，夕嵐飛鳥還。",
       "author": "王維",
       "sentenceFrom": "崔濮陽兄季重前山興"
     },
@@ -2164,9 +2164,9 @@
       "g": 171,
       "b": 218,
       "hex": "#88ABDA",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "秋鳸，窃蓝。",
+      "author": "佚名",
+      "sentenceFrom": "爾雅·釋鳥"
     },
     {
       "name": "監德",
@@ -2175,9 +2175,9 @@
       "g": 148,
       "b": 205,
       "hex": "#6F94CD",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "正月，與鬥、牽牛晨出東方，名曰監德。",
+      "author": "司馬遷",
+      "sentenceFrom": "史記·天官書"
     },
     {
       "name": "蒼蒼",
@@ -2186,9 +2186,9 @@
       "g": 118,
       "b": 186,
       "hex": "#5976BA",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "天之蒼蒼，其正色邪。",
+      "author": "莊周",
+      "sentenceFrom": "逍遙遊"
     },
     {
       "name": "群青",
@@ -2197,9 +2197,9 @@
       "g": 89,
       "b": 167,
       "hex": "#2E59A7",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "回頭卻顧人間世，但見群青似小童。",
+      "author": "樓異",
+      "sentenceFrom": "嵩山二十四詠華蓋峰"
     },
     {
       "name": "白青",
@@ -2208,9 +2208,9 @@
       "g": 182,
       "b": 194,
       "hex": "#98B6C2",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "亦似空青，圓如鐵珠，色白而腹不空，亦謂之碧青，以其研之色碧也。",
+      "author": "蘇頌",
+      "sentenceFrom": "本草圖經"
     },
     {
       "name": "竹月",
@@ -2219,9 +2219,9 @@
       "g": 159,
       "b": 175,
       "hex": "#7F9FAF",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "竹月泛涼影，萱露澹幽叢。",
+      "author": "張籍",
+      "sentenceFrom": "奉和舍人叔直省時思琴"
     },
     {
       "name": "空青",
@@ -2230,9 +2230,9 @@
       "g": 136,
       "b": 158,
       "hex": "#66889E",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "況空青之麗寶，亦挺山海之不測。",
+      "author": "江淹",
+      "sentenceFrom": "空青賦"
     },
     {
       "name": "太師青",
@@ -2241,9 +2241,9 @@
       "g": 118,
       "b": 137,
       "hex": "#547689",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "蔡太師作相時，衣青道衣，謂之太師青。",
+      "author": "陸游",
+      "sentenceFrom": "老學庵筆記"
     },
     {
       "name": "縞羽",
@@ -2252,9 +2252,9 @@
       "g": 239,
       "b": 239,
       "hex": "#EFEFEF",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": "",
+      "sentence": "縞，鮮色也。",
+      "author": "許慎",
+      "sentenceFrom": "說文解字·糸部",
       "fontColor": "#343333"
     },
     {
@@ -2264,9 +2264,9 @@
       "g": 209,
       "b": 197,
       "hex": "#D8D1C5",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "汗竹功猶淺，香皮世益珍。",
+      "author": "郭印",
+      "sentenceFrom": "明復作文房四物詩因用其韻。"
     },
     {
       "name": "雲母",
@@ -2275,9 +2275,9 @@
       "g": 190,
       "b": 177,
       "hex": "#C6BEB1",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "雲母屏風燭影深，長河漸落曉星沉。",
+      "author": "李商隱",
+      "sentenceFrom": "嫦娥"
     },
     {
       "name": "佩玖",
@@ -2286,9 +2286,9 @@
       "g": 159,
       "b": 138,
       "hex": "#AC9F8A",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "彼留之子，貽我佩玖。",
+      "author": "佚名",
+      "sentenceFrom": "丘中有麻"
     },
     {
       "name": "麴塵",
@@ -2297,9 +2297,9 @@
       "g": 208,
       "b": 157,
       "hex": "#C0D09D",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "須臾吐昨夜所食，皆作朽爛氣，如黃衣麴塵之色，斯乃櫬中送亡人之食也。",
+      "author": "穀神子",
+      "sentenceFrom": "博異志·閻敬立"
     },
     {
       "name": "綠沈",
@@ -2308,9 +2308,9 @@
       "g": 143,
       "b": 76,
       "hex": "#938F4C",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "綠沈，言其色深沈，正今之苦綠色",
+      "author": "方以智",
+      "sentenceFrom": "通雅"
     },
     {
       "name": "絞衣",
@@ -2319,9 +2319,9 @@
       "g": 117,
       "b": 76,
       "hex": "#7F754C",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "絞，謂繒黑黃間色也",
+      "author": "張戩",
+      "sentenceFrom": "考聲"
     },
     {
       "name": "素綦",
@@ -2330,9 +2330,9 @@
       "g": 83,
       "b": 51,
       "hex": "#595333",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "質如緗縟，文如素綦。",
+      "author": "公孫詭",
+      "sentenceFrom": "文鹿賦"
     }
   ],
   [
@@ -2343,9 +2343,9 @@
       "g": 207,
       "b": 227,
       "hex": "#F0CFE3",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "與褪同為淺紅也，半新半舊日福。",
+      "author": "方以智",
+      "sentenceFrom": "通雅·衣服·彩色"
     },
     {
       "name": "櫻花",
@@ -2354,9 +2354,9 @@
       "g": 184,
       "b": 213,
       "hex": "#E4B8D5",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "何處哀箏隨急管，櫻花永巷垂楊岸。",
+      "author": "李商隱",
+      "sentenceFrom": "無題四首"
     },
     {
       "name": "丁香",
@@ -2365,9 +2365,9 @@
       "g": 147,
       "b": 191,
       "hex": "#CE93BF",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "青鳥不傳云外信，丁香空結雨中愁。",
+      "author": "李璟",
+      "sentenceFrom": "攤破浣溪沙· 手捲真珠上玉鉤"
     },
     {
       "name": "木槿",
@@ -2376,9 +2376,9 @@
       "g": 121,
       "b": 177,
       "hex": "#BA79B1",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "有女同車，顏如舜華。",
+      "author": "佚名",
+      "sentenceFrom": "有女同車"
     },
     {
       "name": "餘白",
@@ -2387,9 +2387,9 @@
       "g": 207,
       "b": 193,
       "hex": "#C9CFC1",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "白綠色曰餘白，淺紅白色曰出爐銀。",
+      "author": "李斗",
+      "sentenceFrom": "揚州畫舫錄"
     },
     {
       "name": "蘭苕",
@@ -2398,9 +2398,9 @@
       "g": 183,
       "b": 140,
       "hex": "#A8B78C",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "翡翠戲蘭苕，容色更相鮮。",
+      "author": "郭璞",
+      "sentenceFrom": "遊仙詩"
     },
     {
       "name": "碧滋",
@@ -2409,9 +2409,9 @@
       "g": 160,
       "b": 125,
       "hex": "#90A07D",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "庭樹發紅彩，閨草含碧滋。",
+      "author": "江淹",
+      "sentenceFrom": "張司空華離情"
     },
     {
       "name": "蔥倩",
@@ -2420,9 +2420,9 @@
       "g": 134,
       "b": 80,
       "hex": "#6C8650",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "當嚴勁而蔥倩，承和煦而芬腴。",
+      "author": "謝靈運",
+      "sentenceFrom": "山居賦"
     },
     {
       "name": "雲門",
@@ -2431,9 +2431,9 @@
       "g": 210,
       "b": 226,
       "hex": "#A2D2E2",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "男耕女桑不相失，宮中聖人奏雲門。",
+      "author": "杜甫",
+      "sentenceFrom": "憶昔二首"
     },
     {
       "name": "西子",
@@ -2442,9 +2442,9 @@
       "g": 192,
       "b": 202,
       "hex": "#87C0CA",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "欲把西湖比西子，淡妝濃抹總相宜。",
+      "author": "蘇軾",
+      "sentenceFrom": "飲湖上初晴後雨二首"
     },
     {
       "name": "天水碧",
@@ -2453,9 +2453,9 @@
       "g": 164,
       "b": 174,
       "hex": "#5AA4AE",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "天水碧，因煜之內人染碧，夕露於中庭，為露所染，其色特好，遂名之。",
+      "author": "鮑士恭",
+      "sentenceFrom": "五國故事"
     },
     {
       "name": "法翠",
@@ -2464,9 +2464,9 @@
       "g": 139,
       "b": 150,
       "hex": "#108B96",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "法藍、法翠二色，舊惟成窯有，翡翠最佳。",
+      "author": "張九鉞",
+      "sentenceFrom": "南窯筆記"
     },
     {
       "name": "桑蕾",
@@ -2475,9 +2475,9 @@
       "g": 216,
       "b": 154,
       "hex": "#EAD89A",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "小憑筍輿行稻田，麥芒桑蕾春無邊。",
+      "author": "王炎",
+      "sentenceFrom": "春日"
     },
     {
       "name": "太一餘糧",
@@ -2486,9 +2486,9 @@
       "g": 180,
       "b": 92,
       "hex": "#D5B45C",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "太一馀糧，中黃侭玉。",
+      "author": "張衡",
+      "sentenceFrom": "南都賦"
     },
     {
       "name": "秋香",
@@ -2497,9 +2497,9 @@
       "g": 156,
       "b": 70,
       "hex": "#BF9C46",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "畫欄桂樹懸秋香，三十六宮土花碧。",
+      "author": "李賀",
+      "sentenceFrom": "金銅仙人辭漢歌"
     },
     {
       "name": "老茯神",
@@ -2508,9 +2508,9 @@
       "g": 133,
       "b": 52,
       "hex": "#AA8534",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "曾為老茯神，本是寒松液。",
+      "author": "韋應物",
+      "sentenceFrom": "詠琥珀"
     }
   ],
   [
@@ -2521,9 +2521,9 @@
       "g": 242,
       "b": 233,
       "hex": "#F5F2E9",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": "",
+      "sentence": "春寒賜浴華清池，溫泉水滑洗凝脂。",
+      "author": "白居易",
+      "sentenceFrom": "長恨歌",
       "fontColor": "#343333"
     },
     {
@@ -2533,9 +2533,9 @@
       "g": 228,
       "b": 209,
       "hex": "#EAE4D1",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": "",
+      "sentence": "玉色雌龍金絡頭，真妃騎出縱閒遊。",
+      "author": "曹唐",
+      "sentenceFrom": "小遊仙詩九十八首",
       "fontColor": "#343333"
     },
     {
@@ -2545,9 +2545,9 @@
       "g": 214,
       "b": 184,
       "hex": "#DFD6B8",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": "",
+      "sentence": "筒中黃潤，一端數金。",
+      "author": "揚雄",
+      "sentenceFrom": "蜀都賦",
       "fontColor": "#343333"
     },
     {
@@ -2557,9 +2557,9 @@
       "g": 200,
       "b": 160,
       "hex": "#D5C8A0",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": "",
+      "sentence": "缃，帛浅黄色也。",
+      "author": "許慎",
+      "sentenceFrom": "說文解字·糸部",
       "fontColor": "#343333"
     },
     {
@@ -2569,9 +2569,9 @@
       "g": 144,
       "b": 138,
       "hex": "#86908A",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "芭蕉月上露枝遲，促織聲先到耳痴。",
+      "author": "霍韜",
+      "sentenceFrom": "中秋夜飲"
     },
     {
       "name": "千山翠",
@@ -2580,9 +2580,9 @@
       "g": 125,
       "b": 115,
       "hex": "#6B7D73",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "九秋風露越窯開，奪得千峰翠色來。",
+      "author": "陸龜蒙",
+      "sentenceFrom": "秘色越器"
     },
     {
       "name": "結綠",
@@ -2591,9 +2591,9 @@
       "g": 95,
       "b": 77,
       "hex": "#555F4D",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "庶青萍、結綠，長價於薛、卞之門。",
+      "author": "李白",
+      "sentenceFrom": "與韓荊州書"
     },
     {
       "name": "綠雲",
@@ -2602,9 +2602,9 @@
       "g": 73,
       "b": 61,
       "hex": "#45493D",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "綠雲擾擾，梳曉鬟也。",
+      "author": "杜牧",
+      "sentenceFrom": "阿房宮賦"
     },
     {
       "name": "藕絲秋半",
@@ -2613,9 +2613,9 @@
       "g": 203,
       "b": 197,
       "hex": "#D3CBC5",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "藕絲衫子柳花裙，空著沈香慢火熏。",
+      "author": "元稹",
+      "sentenceFrom": "白衣裳二首"
     },
     {
       "name": "蒼煙落照",
@@ -2624,9 +2624,9 @@
       "g": 181,
       "b": 179,
       "hex": "#C8B5B3",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "家住蒼煙落照間，絲毫塵事不相關。",
+      "author": "陸游",
+      "sentenceFrom": "鷓鴣天"
     },
     {
       "name": "紅藤杖",
@@ -2635,9 +2635,9 @@
       "g": 129,
       "b": 135,
       "hex": "#928187",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "唯有紅藤杖，相隨萬里來。",
+      "author": "白居易",
+      "sentenceFrom": "紅藤杖"
     },
     {
       "name": "紫鼠",
@@ -2646,9 +2646,9 @@
       "g": 76,
       "b": 87,
       "hex": "#594C57",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "將軍縱博場場胜，賭得單于貂鼠袍。",
+      "author": "岑參",
+      "sentenceFrom": "趙將軍歌"
     },
     {
       "name": "黃粱",
@@ -2657,9 +2657,9 @@
       "g": 183,
       "b": 152,
       "hex": "#C4B798",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "夜雨翦春韭，新炊間黃粱。",
+      "author": "杜甫",
+      "sentenceFrom": "贈衛八處士"
     },
     {
       "name": "蒸栗",
@@ -2668,9 +2668,9 @@
       "g": 138,
       "b": 95,
       "hex": "#A58A5F",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "烝栗絹紺縉紅繎，青綺綾縠靡潤鮮。",
+      "author": "史遊",
+      "sentenceFrom": "急就篇"
     },
     {
       "name": "射干",
@@ -2679,9 +2679,9 @@
       "g": 98,
       "b": 63,
       "hex": "#7C623F",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "青荃射干，揭車苞並。",
+      "author": "秦宋玉",
+      "sentenceFrom": "高唐賦"
     },
     {
       "name": "油葫蘆",
@@ -2690,9 +2690,9 @@
       "g": 77,
       "b": 49,
       "hex": "#644D31",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "油葫蘆，黑睛淺黃暈，青黑喙，吻根黃。",
+      "author": "蔣廷錫",
+      "sentenceFrom": "清宮鳥譜"
     }
   ],
   [
@@ -2703,9 +2703,10 @@
       "g": 227,
       "b": 212,
       "hex": "#D5E3D4",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "夜月琉璃水，春風卵色天。",
+      "author": "沈青箱",
+      "sentenceFrom": "過台城感舊",
+      "fontColor": "#343333"
     },
     {
       "name": "葭菼",
@@ -2714,9 +2715,9 @@
       "g": 215,
       "b": 197,
       "hex": "#CAD7C5",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "內阜川禽，外豐葭菼。",
+      "author": "張衡",
+      "sentenceFrom": "東京賦"
     },
     {
       "name": "冰台",
@@ -2725,9 +2726,9 @@
       "g": 202,
       "b": 183,
       "hex": "#BECAB7",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "春將去、冰台初長，綺錢重疊。",
+      "author": "徐燦",
+      "sentenceFrom": "滿江紅"
     },
     {
       "name": "青古",
@@ -2736,9 +2737,9 @@
       "g": 189,
       "b": 169,
       "hex": "#B3BDA9",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "金箔行，為本鄉有名出品，有青、赤二種。",
+      "author": "冼寶榦",
+      "sentenceFrom": "佛山忠義鄉志"
     },
     {
       "name": "欒華",
@@ -2747,9 +2748,9 @@
       "g": 173,
       "b": 94,
       "hex": "#C0AD5E",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "葉似木槿而薄細，花黃似槐而稍長大。",
+      "author": "欒華",
+      "sentenceFrom": "本草圖經"
     },
     {
       "name": "大赤",
@@ -2758,9 +2759,9 @@
       "g": 150,
       "b": 73,
       "hex": "#AA9649",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "大赤，九旗之通帛。",
+      "author": "鄭玄",
+      "sentenceFrom": "周礼·春官·巾车·注"
     },
     {
       "name": "佛赤",
@@ -2769,9 +2770,9 @@
       "g": 61,
       "b": 44,
       "hex": "#8F3D2C",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "亦稱紫赤金。",
+      "author": "佚名",
+      "sentenceFrom": "中國繪畫雕塑建築"
     },
     {
       "name": "蜜褐",
@@ -2780,9 +2781,9 @@
       "g": 54,
       "b": 50,
       "hex": "#683632",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "王家池上見芙蕖，蜜褐裝成態有餘。",
+      "author": "程敏政",
+      "sentenceFrom": "丹徒王璽家蜜 褐蓮卷追賦明"
     },
     {
       "name": "孔雀藍",
@@ -2791,9 +2792,9 @@
       "g": 148,
       "b": 196,
       "hex": "#4994C4",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "法藍、法翠二色，舊惟成窯有，翡翠最佳。",
+      "author": "張九鉞",
+      "sentenceFrom": "南窯筆記"
     },
     {
       "name": "吐綬藍",
@@ -2802,9 +2803,9 @@
       "g": 130,
       "b": 164,
       "hex": "#4182A4",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "吐綬鳥，其身大如鸐，五色，出巴東山中。",
+      "author": "任昉",
+      "sentenceFrom": "吐綬鳥"
     },
     {
       "name": "魚師青",
@@ -2813,9 +2814,9 @@
       "g": 120,
       "b": 138,
       "hex": "#32788A",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "翠小者，謂之翠碧鳥，一名魚師。",
+      "author": "陸佃",
+      "sentenceFrom": "埤雅"
     },
     {
       "name": "軟翠",
@@ -2824,20 +2825,19 @@
       "g": 109,
       "b": 135,
       "hex": "#006D87",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "鴨綠澹不波，軟翠淨如洗。",
+      "author": "程公許",
+      "sentenceFrom": "解纜凌雲快晴"
     },
     {
       "name": "淺雲",
       "category": "秋分",
-      "r": 234,
       "g": 238,
       "b": 241,
       "hex": "#EAEEF1",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": "",
+      "sentence": "小抹淡隨寒露立，半橫細入淺雲籠。",
+      "author": "雁字三十首次韻",
+      "sentenceFrom": "雁字三十首次韻",
       "fontColor": "#343333"
     },
     {
@@ -2847,9 +2847,9 @@
       "g": 221,
       "b": 225,
       "hex": "#D4DDE1",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": "",
+      "sentence": "波間素彩涵秋淨，天際清光映樹低。",
+      "author": "林環",
+      "sentenceFrom": "盧溝曉日",
       "fontColor": "#343333"
     },
     {
@@ -2859,9 +2859,9 @@
       "g": 203,
       "b": 210,
       "hex": "#BDCBD2",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": "",
+      "sentence": "有一種碗碟，質薄而色白，微似定，市肆人呼為影青，以其釉色微帶青色也。",
+      "author": "劉子芬",
+      "sentenceFrom": "竹園陶說",
       "fontColor": "#343333"
     },
     {
@@ -2871,9 +2871,9 @@
       "g": 191,
       "b": 195,
       "hex": "#B2BFC3",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": "",
+      "sentence": "自言其中有至樂，適意無異逍遙遊。",
+      "author": "蘇軾",
+      "sentenceFrom": "石蒼舒醉墨堂",
       "fontColor": "#343333"
     }
   ],
@@ -2885,9 +2885,9 @@
       "g": 186,
       "b": 177,
       "hex": "#A6BAB1",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "波翻醽醁醆，霧暖芙蓉繡。",
+      "author": "周紫芝",
+      "sentenceFrom": "千秋歲·生日"
     },
     {
       "name": "翠濤",
@@ -2896,9 +2896,9 @@
       "g": 157,
       "b": 142,
       "hex": "#819D8E",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "碧瑤杯重翠濤深，笑領飛瓊語。",
+      "author": "陳著",
+      "sentenceFrom": "燭影搖紅·壽 元實通判母"
     },
     {
       "name": "青梅",
@@ -2907,9 +2907,9 @@
       "g": 138,
       "b": 119,
       "hex": "#778A77",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "茂綠滿繁枝，青梅結子時。",
+      "author": "蔡伸",
+      "sentenceFrom": "菩薩蠻"
     },
     {
       "name": "翕赩",
@@ -2918,9 +2918,9 @@
       "g": 118,
       "b": 106,
       "hex": "#5F766A",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "朝野盛文物，衣冠何翕赩。",
+      "author": "李白",
+      "sentenceFrom": "君子有所思行"
     },
     {
       "name": "九斤黃",
@@ -2929,9 +2929,9 @@
       "g": 176,
       "b": 120,
       "hex": "#DDB078",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "雞，產浦東者大，有九斤黃、黑十二之名。",
+      "author": "薛振東",
+      "sentenceFrom": "南匯縣志"
     },
     {
       "name": "杏子",
@@ -2940,9 +2940,9 @@
       "g": 146,
       "b": 51,
       "hex": "#DA9233",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "杏子梢頭香蕾破，淡紅褪白胭脂涴。",
+      "author": "蘇軾",
+      "sentenceFrom": "蝶戀花"
     },
     {
       "name": "媚蝶",
@@ -2951,9 +2951,9 @@
       "g": 110,
       "b": 55,
       "hex": "#BC6E37",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "乳鶯啼曉銷蘭炷，媚蝶傷春失蕙叢。",
+      "author": "劉筠",
+      "sentenceFrom": "代意"
     },
     {
       "name": "韎韐",
@@ -2962,9 +2962,9 @@
       "g": 82,
       "b": 33,
       "hex": "#9F5221",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "君子至止，福祿如茨；韎韐有奭，以作六師。",
+      "author": "佚名",
+      "sentenceFrom": "瞻彼洛矣"
     },
     {
       "name": "東方既白",
@@ -2973,9 +2973,9 @@
       "g": 163,
       "b": 199,
       "hex": "#8BA3C7",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "相與枕藉乎舟中，不知東方之既白。",
+      "author": "蘇軾",
+      "sentenceFrom": "赤壁賦"
     },
     {
       "name": "紺宇",
@@ -2984,9 +2984,9 @@
       "g": 61,
       "b": 116,
       "hex": "#003D74",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "白髮金山續舊遊，依然紺宇壓中流。",
+      "author": "文徵明",
+      "sentenceFrom": "金山詩追賦"
     },
     {
       "name": "佛頭青",
@@ -2995,9 +2995,9 @@
       "g": 50,
       "b": 95,
       "hex": "#19325F",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "潮花人鬢白，山色佛頭青。",
+      "author": "白玉蟾",
+      "sentenceFrom": "景泰晚眺"
     },
     {
       "name": "花青",
@@ -3006,9 +3006,9 @@
       "g": 40,
       "b": 71,
       "hex": "#1A2847",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "笑老去心情，也將醉眼，鎮為花青。",
+      "author": "趙以夫",
+      "sentenceFrom": "憶舊遊慢"
     },
     {
       "name": "弗肯紅",
@@ -3017,9 +3017,9 @@
       "g": 217,
       "b": 199,
       "hex": "#ECD9C7",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "今人染弗肯紅名玉色，非也，當名肉紅耳。",
+      "author": "袁文",
+      "sentenceFrom": "甕牗閑評"
     },
     {
       "name": "赤璋",
@@ -3028,9 +3028,9 @@
       "g": 193,
       "b": 153,
       "hex": "#E1C199",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "以青圭禮東方，以赤璋禮南方。",
+      "author": "周公旦",
+      "sentenceFrom": "周禮·春官·大宗伯"
     },
     {
       "name": "繭色",
@@ -3039,9 +3039,9 @@
       "g": 162,
       "b": 104,
       "hex": "#C6A268",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "半嶺晴雲堆繭色，上方朝雨雜龍涎。",
+      "author": "丁复",
+      "sentenceFrom": "送僧還徑山"
     },
     {
       "name": "密陀僧",
@@ -3050,9 +3050,9 @@
       "g": 147,
       "b": 75,
       "hex": "#B3934B",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "黃丹胡粉密陀僧，此是嘉州造化能。",
+      "author": "陳楠",
+      "sentenceFrom": "金丹詩訣"
     }
   ],
   [
@@ -3063,9 +3063,9 @@
       "g": 41,
       "b": 32,
       "hex": "#D12920",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "職司雖翰墨，佩服已銀硃。",
+      "author": "柳貫",
+      "sentenceFrom": "贈別宋季任赴 甘肅提舉二十韻"
     },
     {
       "name": "胭脂蟲",
@@ -3074,9 +3074,9 @@
       "g": 29,
       "b": 34,
       "hex": "#AB1D22",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "誰碾硃砂擁菊叢，丹葩和露綻西風；一從番舶來中土，贏得扶桑曉日紅。",
+      "author": "繆公恩",
+      "sentenceFrom": "洋紅"
     },
     {
       "name": "朱櫻",
@@ -3085,9 +3085,9 @@
       "g": 29,
       "b": 34,
       "hex": "#8F1D22",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "朱櫻春熟，素柰夏成。",
+      "author": "左思",
+      "sentenceFrom": "三都賦"
     },
     {
       "name": "爵頭",
@@ -3096,9 +3096,9 @@
       "g": 18,
       "b": 22,
       "hex": "#631216",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "雲『如爵頭然』者，以目驗爵頭，赤多黑少，故以爵頭為喻也。",
+      "author": "鄭玄",
+      "sentenceFrom": "儀禮注疏"
     },
     {
       "name": "甘石",
@@ -3107,9 +3107,9 @@
       "g": 178,
       "b": 178,
       "hex": "#BDB2B2",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "爐甘石，陽明經藥也，治目病為要藥。",
+      "author": "李時珍",
+      "sentenceFrom": "本草綱目"
     },
     {
       "name": "迷樓灰",
@@ -3118,9 +3118,9 @@
       "g": 130,
       "b": 143,
       "hex": "#91828F",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "神器失所託，化作迷樓灰。",
+      "author": "曹勳",
+      "sentenceFrom": "隋堤柳"
     },
     {
       "name": "鴉雛",
@@ -3129,9 +3129,9 @@
       "g": 91,
       "b": 109,
       "hex": "#6A5B6D",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "單衫杏子紅，雙鬢鴉雛色。",
+      "author": "佚名",
+      "sentenceFrom": "西洲曲"
     },
     {
       "name": "煙墨",
@@ -3140,9 +3140,9 @@
       "g": 79,
       "b": 85,
       "hex": "#5C4F55",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "徒以煙墨不言，受其驅染；紙札無情，任其搖襞。",
+      "author": "蕭綱",
+      "sentenceFrom": "與湘東王書"
     },
     {
       "name": "十樣錦",
@@ -3151,9 +3151,9 @@
       "g": 198,
       "b": 181,
       "hex": "#F8C6B5",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "孟氏在蜀時製十樣錦，名長安竹、天下樂、鵰團...",
+      "author": "戚輔之",
+      "sentenceFrom": "佩轩楚客谈"
     },
     {
       "name": "檀唇",
@@ -3162,9 +3162,9 @@
       "g": 158,
       "b": 140,
       "hex": "#DA9E8C",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "檀唇呼吸宮商改，怨情漸逐清新舉。",
+      "author": "秦韜玉",
+      "sentenceFrom": "吹笙歌"
     },
     {
       "name": "瓊琚",
@@ -3173,9 +3173,9 @@
       "g": 127,
       "b": 102,
       "hex": "#D77F66",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "投我以木瓜，報之以瓊琚。",
+      "author": "佚名",
+      "sentenceFrom": "詩經·衛風·木瓜"
     },
     {
       "name": "棠梨",
@@ -3184,9 +3184,9 @@
       "g": 90,
       "b": 67,
       "hex": "#B15A43",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "棠梨花白春似雪，棠梨葉赤秋如血。",
+      "author": "王翰",
+      "sentenceFrom": "棠梨墓歌"
     },
     {
       "name": "蜜合",
@@ -3195,9 +3195,9 @@
       "g": 215,
       "b": 194,
       "hex": "#DFD7C2",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "僧缽飯歸三篾飽，蜂房蜜合百華香。",
+      "author": "釋正覺",
+      "sentenceFrom": "方上人持缽乞頌"
     },
     {
       "name": "假山南",
@@ -3206,9 +3206,9 @@
       "g": 193,
       "b": 166,
       "hex": "#D4C1A6",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "廣都紙有四色：一曰假山南，二曰假榮，三曰冉村，四曰竹紙。",
+      "author": "費著",
+      "sentenceFrom": "蜀箋譜"
     },
     {
       "name": "紫花布",
@@ -3217,9 +3217,9 @@
       "g": 167,
       "b": 139,
       "hex": "#BEA78B",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "用紫木棉織成，色赭而淡，名紫花布。",
+      "author": "顧清",
+      "sentenceFrom": "松江府志"
     },
     {
       "name": "沉香",
@@ -3228,9 +3228,9 @@
       "g": 128,
       "b": 108,
       "hex": "#99806C",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "寧知謫仙子，捧研在沉香。",
+      "author": "胡應麟",
+      "sentenceFrom": "嘲老杜"
     }
   ],
   [
@@ -3241,9 +3241,9 @@
       "g": 251,
       "b": 199,
       "hex": "#FFFBC7",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": "",
+      "sentence": "鬱金半見緗白䋤，縹綟綠紈皂紫硟。",
+      "author": "史遊",
+      "sentenceFrom": "急就篇",
       "fontColor": "#343333"
     },
     {
@@ -3253,9 +3253,9 @@
       "g": 238,
       "b": 173,
       "hex": "#F7EEAD",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": "",
+      "sentence": "楚雲低，瀟瀟暮雨，女貞細瑣黃花。",
+      "author": "沈曾植",
+      "sentenceFrom": "芳草·長吉多 神語，戲效其意",
       "fontColor": "#343333"
     },
     {
@@ -3265,9 +3265,9 @@
       "g": 224,
       "b": 147,
       "hex": "#ECE093",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": "",
+      "sentence": "綃謂之絹，螈謂之紅，縹謂之絳，緇謂之皂。",
+      "author": "張揖",
+      "sentenceFrom": "廣雅·釋器",
       "fontColor": "#343333"
     },
     {
@@ -3277,9 +3277,9 @@
       "g": 197,
       "b": 96,
       "hex": "#D6C560",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "漫空沙氣蜀薑黃，一角高城漏日光。",
+      "author": "毛澄",
+      "sentenceFrom": "飲西郊歸作"
     },
     {
       "name": "繱犗",
@@ -3288,9 +3288,9 @@
       "g": 191,
       "b": 184,
       "hex": "#88BFB8",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "繱，帛青色也。",
+      "author": "許慎",
+      "sentenceFrom": "說文解字"
     },
     {
       "name": "二綠",
@@ -3299,9 +3299,9 @@
       "g": 163,
       "b": 157,
       "hex": "#5DA39D",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "凡合用顏色細色，頭青、二青、三青、深中青...",
+      "author": "陶宗儀",
+      "sentenceFrom": "南村輟耕錄"
     },
     {
       "name": "銅青",
@@ -3310,9 +3310,9 @@
       "g": 142,
       "b": 134,
       "hex": "#3D8E86",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "銅青衫子紫香囊；清歌一曲送霞觴。",
+      "author": "楊慎",
+      "sentenceFrom": "浣溪沙"
     },
     {
       "name": "石綠",
@@ -3321,9 +3321,9 @@
       "g": 104,
       "b": 100,
       "hex": "#206864",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "石綠藤黃間麝煤，半枯瘦篠羽毰毸。",
+      "author": "方回",
+      "sentenceFrom": "題宣和黃頭畫"
     },
     {
       "name": "黃琮",
@@ -3332,9 +3332,9 @@
       "g": 140,
       "b": 107,
       "hex": "#9E8C6B",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "以蒼璧禮天，以黃琮禮地，以青圭禮東方。",
+      "author": "周公旦",
+      "sentenceFrom": "周禮·春官·大宗伯"
     },
     {
       "name": "茶色",
@@ -3343,9 +3343,9 @@
       "g": 118,
       "b": 87,
       "hex": "#887657",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "來衣茶色袍，歸變椹色服。",
+      "author": "梅堯臣",
+      "sentenceFrom": "送良玉人上還崑山"
     },
     {
       "name": "伽羅",
@@ -3354,9 +3354,9 @@
       "g": 92,
       "b": 61,
       "hex": "#6D5C3D",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "伽羅翻黑，經所謂黑沉香是矣。",
+      "author": "釋善住",
+      "sentenceFrom": "谷響集"
     },
     {
       "name": "蒼艾",
@@ -3365,9 +3365,9 @@
       "g": 75,
       "b": 59,
       "hex": "#5A4B3B",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "蒼艾浸成色，素絲颯垂領。",
+      "author": "釋文珦",
+      "sentenceFrom": "老景"
     },
     {
       "name": "藕絲褐",
@@ -3376,9 +3376,9 @@
       "g": 135,
       "b": 135,
       "hex": "#A88787",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "藕褐色，蘇木水薄染，入蓮子殼，青礬水薄蓋。",
+      "author": "宋應星",
+      "sentenceFrom": "天工開物"
     },
     {
       "name": "葡萄褐",
@@ -3387,9 +3387,9 @@
       "g": 105,
       "b": 109,
       "hex": "#9E696D",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "葡葡褐，用粉入三緑紫花合。",
+      "author": "陶宗儀",
+      "sentenceFrom": "輟耕錄·寫像訣"
     },
     {
       "name": "蘇方",
@@ -3398,9 +3398,9 @@
       "g": 71,
       "b": 76,
       "hex": "#81474C",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "雖得蘇方木，猶貪玳瑁皮。",
+      "author": "崔涯",
+      "sentenceFrom": "嘲妓"
     },
     {
       "name": "福色",
@@ -3409,9 +3409,9 @@
       "g": 43,
       "b": 47,
       "hex": "#662B2F",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "近用膏粱紅、櫻桃紅，謂之福色。",
+      "author": "李斗",
+      "sentenceFrom": "揚州畫舫錄"
     }
   ],
   [
@@ -3422,9 +3422,9 @@
       "g": 130,
       "b": 167,
       "hex": "#DE82A7",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "燈掩香雲墜寶花，龍膏照影月籠紗。",
+      "author": "黎鶱",
+      "sentenceFrom": "七夕作"
     },
     {
       "name": "黲紫",
@@ -3433,9 +3433,9 @@
       "g": 115,
       "b": 160,
       "hex": "#CC73A0",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "黲紫，淺紫也。",
+      "author": "方以智",
+      "sentenceFrom": "通雅"
     },
     {
       "name": "胭脂水",
@@ -3444,9 +3444,9 @@
       "g": 90,
       "b": 137,
       "hex": "#B95A89",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "翻疑誤潑胭脂水，化出花身迥不同。",
+      "author": "金朝覲",
+      "sentenceFrom": "紫丁香"
     },
     {
       "name": "胭脂紫",
@@ -3455,9 +3455,9 @@
       "g": 67,
       "b": 111,
       "hex": "#B0436F",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "檀唇深注胭脂紫，琪樹勻排火齊圓。",
+      "author": "華鎮",
+      "sentenceFrom": "食櫻桃思越中風俗"
     },
     {
       "name": "小紅",
@@ -3466,9 +3466,9 @@
       "g": 119,
       "b": 98,
       "hex": "#E67762",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "染小紅，以練物帛十兩為率。",
+      "author": "佚名",
+      "sentenceFrom": "居家必用事類全集"
     },
     {
       "name": "岱赭",
@@ -3477,9 +3477,9 @@
       "g": 107,
       "b": 79,
       "hex": "#DD6B4F",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "厥貢岱赭，鹽山、角弓、龍鬚席、蓯蓉、野馬皮、麝香。",
+      "author": "李林甫",
+      "sentenceFrom": "唐六典·戶部尚書"
     },
     {
       "name": "鶴頂紅",
@@ -3488,9 +3488,9 @@
       "g": 71,
       "b": 53,
       "hex": "#D24735",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "掌中調丹砂，染此鶴頂紅。",
+      "author": "蘇軾",
+      "sentenceFrom": "山茶"
     },
     {
       "name": "朱殷",
@@ -3499,9 +3499,9 @@
       "g": 58,
       "b": 38,
       "hex": "#B93A26",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "左輪朱殷，豈敢言病。",
+      "author": "左丘",
+      "sentenceFrom": "左傳"
     },
     {
       "name": "月白",
@@ -3510,9 +3510,10 @@
       "g": 229,
       "b": 239,
       "hex": "#D4E5EF",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "月白、草白二色，俱靛水微染，今法用莧藍煎水，半生半熟染。",
+      "author": "宋應星",
+      "sentenceFrom": "天工開物",
+      "fontColor": "#343333"
     },
     {
       "name": "星郎",
@@ -3521,9 +3522,9 @@
       "g": 212,
       "b": 231,
       "hex": "#BCD4E7",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "紅迷天子帆邊日，紫奪星郎帳外蘭。",
+      "author": "鄭谷",
+      "sentenceFrom": "錦二首"
     },
     {
       "name": "晴山",
@@ -3532,9 +3533,9 @@
       "g": 187,
       "b": 219,
       "hex": "#A3BBDB",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "雲散晴山幾萬重，煙收春色更衝融。",
+      "author": "宣宗",
+      "sentenceFrom": "幸華嚴寺"
     },
     {
       "name": "品月",
@@ -3543,9 +3544,9 @@
       "g": 171,
       "b": 204,
       "hex": "#8AABCC",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "寶枕垂雲選夢，玉蕭品月偷聲。",
+      "author": "楊慎",
+      "sentenceFrom": "題周昉瓊枝夜醉圖"
     },
     {
       "name": "明茶褐",
@@ -3554,9 +3555,9 @@
       "g": 131,
       "b": 104,
       "hex": "#9E8368",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "染明茶褐，以帛十兩為率。黃蘆五兩半研碎，白礬二兩研末。",
+      "author": "佚名",
+      "sentenceFrom": "居家必用事類全集"
     },
     {
       "name": "荊褐",
@@ -3565,9 +3566,9 @@
       "g": 108,
       "b": 74,
       "hex": "#906C4A",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "染荊褐，以物帛十兩為率。荊葉五兩、白礬二兩、皂礬少許。",
+      "author": "佚名",
+      "sentenceFrom": "居家必用事類全集"
     },
     {
       "name": "駝褐",
@@ -3576,9 +3577,9 @@
       "g": 91,
       "b": 62,
       "hex": "#7C5B3E",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "露侵駝褐曉寒輕，星斗闌干分外明。",
+      "author": "陳與義",
+      "sentenceFrom": "早行"
     },
     {
       "name": "椒褐",
@@ -3587,9 +3588,9 @@
       "g": 69,
       "b": 58,
       "hex": "#72453A",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "染椒褐，以絹十兩為率。",
+      "author": "佚名",
+      "sentenceFrom": "居家必用事類全集"
     }
   ],
   [
@@ -3600,9 +3601,9 @@
       "g": 196,
       "b": 206,
       "hex": "#EFC4CE",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": "",
+      "sentence": "節葉瘦且赤，蘼蕪交翠箸；細蕊亦鮮潔，粉米糅丹素。",
+      "author": "郝經",
+      "sentenceFrom": "甲子歲後園秋色四首",
       "fontColor": "#343333"
     },
     {
@@ -3612,9 +3613,9 @@
       "g": 136,
       "b": 146,
       "hex": "#CE8892",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "練衣黃里縓緣。",
+      "author": "戴德和",
+      "sentenceFrom": "禮記·檀弓上"
     },
     {
       "name": "美人祭",
@@ -3623,9 +3624,9 @@
       "g": 92,
       "b": 106,
       "hex": "#C35C6A",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "美人祭，又曰美人齊，祭紅之淡粉色者也。",
+      "author": "許之衡",
+      "sentenceFrom": "飲流齋說瓷"
     },
     {
       "name": "鞓紅",
@@ -3634,9 +3635,9 @@
       "g": 69,
       "b": 82,
       "hex": "#B04552",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "白首歸來玉堂署，君王殿後見鞓紅。",
+      "author": "歐陽修",
+      "sentenceFrom": "禁中見鞓紅牡丹"
     },
     {
       "name": "米湯嬌",
@@ -3645,9 +3646,9 @@
       "g": 234,
       "b": 217,
       "hex": "#EEEAD9",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": "",
+      "sentence": "緗色即今之谷色，京師呼米湯嬌。",
+      "author": "平步青",
+      "sentenceFrom": "霞外捃屑",
       "fontColor": "#343333"
     },
     {
@@ -3657,9 +3658,9 @@
       "g": 193,
       "b": 169,
       "hex": "#BFC1A9",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "松色隨野深，月露依草白。",
+      "author": "鮑照",
+      "sentenceFrom": "過銅山掘黃精詩"
     },
     {
       "name": "玄校",
@@ -3668,9 +3669,9 @@
       "g": 160,
       "b": 130,
       "hex": "#A9A082",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "玄也者，黑也；校也者，若緑色然，婦人未嫁者衣之。",
+      "author": "戴德",
+      "sentenceFrom": "大戴禮記·夏小正"
     },
     {
       "name": "綟綬",
@@ -3679,9 +3680,9 @@
       "g": 108,
       "b": 75,
       "hex": "#756C4B",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "鬱金半見緗白䋤，縹綟綠紈皂紫硟。",
+      "author": "史遊",
+      "sentenceFrom": "急就篇"
     },
     {
       "name": "雀梅",
@@ -3690,9 +3691,9 @@
       "g": 138,
       "b": 111,
       "hex": "#788A6F",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "樹頭蠶葚熟，籬下雀梅香。",
+      "author": "王諶",
+      "sentenceFrom": "入邑"
     },
     {
       "name": "油綠",
@@ -3701,9 +3702,9 @@
       "g": 114,
       "b": 89,
       "hex": "#5D7259",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "葉豐髮油綠，香心刻黃琮。",
+      "author": "張鎡",
+      "sentenceFrom": "分韻賦簷蔔得松字"
     },
     {
       "name": "莓莓",
@@ -3712,9 +3713,9 @@
       "g": 101,
       "b": 72,
       "hex": "#4E6548",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "蘭渚莓莓，石瀨湯湯。",
+      "author": "左思",
+      "sentenceFrom": "三都賦"
     },
     {
       "name": "螺青",
@@ -3723,9 +3724,9 @@
       "g": 80,
       "b": 59,
       "hex": "#3F503B",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "瓦屋螺青披霧出，錦江鴨綠抱山來。",
+      "author": "陸游",
+      "sentenceFrom": "快晴"
     },
     {
       "name": "暮山紫",
@@ -3734,9 +3735,9 @@
       "g": 171,
       "b": 214,
       "hex": "#A4ABD6",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "潦水盡而寒潭清，煙光凝而暮山紫。",
+      "author": "王勃",
+      "sentenceFrom": "滕王閣序"
     },
     {
       "name": "紫苑",
@@ -3745,9 +3746,9 @@
       "g": 124,
       "b": 187,
       "hex": "#757CBB",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "春暉開紫苑，淑景媚蘭場。",
+      "author": "李世民",
+      "sentenceFrom": "芳蘭"
     },
     {
       "name": "優曇瑞",
@@ -3756,9 +3757,9 @@
       "g": 94,
       "b": 168,
       "hex": "#615EA8",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "優曇瑞世花，既滌名藍之篆。",
+      "author": "劉侗",
+      "sentenceFrom": "大正藏"
     },
     {
       "name": "延維",
@@ -3767,9 +3768,9 @@
       "g": 75,
       "b": 157,
       "hex": "#4A4B9D",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "有神焉，人首蛇身，長如轅，左右有首，衣紫衣，冠旃冠，名曰延維。",
+      "author": "佚名",
+      "sentenceFrom": "山海經·海內經"
     }
   ],
   [
@@ -3780,9 +3781,9 @@
       "g": 202,
       "b": 211,
       "hex": "#E7CAD3",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": "",
+      "sentence": "銀紅裙襉皺宮紗。風前坐，閒鬥鬱金芽。",
+      "author": "蔣捷",
+      "sentenceFrom": "小重山",
       "fontColor": "#343333"
     },
     {
@@ -3792,9 +3793,9 @@
       "g": 160,
       "b": 179,
       "hex": "#D9A0B3",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "遊女泛江晴，蓮紅水復清。",
+      "author": "張敬徽",
+      "sentenceFrom": "採蓮曲"
     },
     {
       "name": "紫梅",
@@ -3803,9 +3804,9 @@
       "g": 122,
       "b": 140,
       "hex": "#BB7A8C",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "紫梅發初遍，黃鳥歌猶澀。",
+      "author": "王維",
+      "sentenceFrom": "早春行"
     },
     {
       "name": "紫礦",
@@ -3814,9 +3815,9 @@
       "g": 78,
       "b": 86,
       "hex": "#9E4E56",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "紫礦，紫色如膠。",
+      "author": "蘇敬",
+      "sentenceFrom": "新修本草"
     },
     {
       "name": "咸池",
@@ -3825,9 +3826,9 @@
       "g": 169,
       "b": 169,
       "hex": "#DAA9A9",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "與女沐兮咸池，曦女發兮陽之阿。",
+      "author": "屈原",
+      "sentenceFrom": "九歌"
     },
     {
       "name": "紅麵",
@@ -3836,9 +3837,9 @@
       "g": 115,
       "b": 114,
       "hex": "#CD7372",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "麵，麥核屑也。",
+      "author": "許慎",
+      "sentenceFrom": "說文解字·麥部"
     },
     {
       "name": "蚩尤旗",
@@ -3847,9 +3848,9 @@
       "g": 88,
       "b": 88,
       "hex": "#A85858",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "中宵倚長劍，起視蚩尤旗。",
+      "author": "劉禹錫",
+      "sentenceFrom": "和董庶中古散 調詞贈尹果毅"
     },
     {
       "name": "霽紅",
@@ -3858,9 +3859,9 @@
       "g": 68,
       "b": 73,
       "hex": "#7C4449",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "葉舞霽紅楓映寺，蓓含霜紫菊迎人。",
+      "author": "劉摯",
+      "sentenceFrom": "秋日即事"
     },
     {
       "name": "鶯兒",
@@ -3869,9 +3870,9 @@
       "g": 225,
       "b": 169,
       "hex": "#EBE1A9",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": "",
+      "sentence": "打起黃鶯兒，莫教枝上啼。",
+      "author": "金昌緒",
+      "sentenceFrom": "春怨",
       "fontColor": "#343333"
     },
     {
@@ -3881,9 +3882,9 @@
       "g": 210,
       "b": 121,
       "hex": "#E1D279",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "山好真登秦望處，石橋偏拾禹餘糧。",
+      "author": "釋行海",
+      "sentenceFrom": "送用上人"
     },
     {
       "name": "姚黃",
@@ -3892,9 +3893,9 @@
       "g": 188,
       "b": 70,
       "hex": "#D6BC46",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "曾與詩翁定花品，一丘一壑過姚黃。",
+      "author": "陸游",
+      "sentenceFrom": "梅花絕句十首其二"
     },
     {
       "name": "蛾黃",
@@ -3903,9 +3904,9 @@
       "g": 138,
       "b": 47,
       "hex": "#BE8A2F",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "琉璃剪芳葆，蛾黃拂仙裾。",
+      "author": "酈權",
+      "sentenceFrom": "木樨"
     },
     {
       "name": "濯絳",
@@ -3914,9 +3915,9 @@
       "g": 104,
       "b": 96,
       "hex": "#796860",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "素波濯絳華，惠風時紛披。",
+      "author": "歐大任",
+      "sentenceFrom": "芙蓉園"
     },
     {
       "name": "墨黲",
@@ -3925,9 +3926,9 @@
       "g": 82,
       "b": 72,
       "hex": "#585248",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "今謂物將敗時，顏色黲黲也。",
+      "author": "顧野王",
+      "sentenceFrom": "玉篇"
     },
     {
       "name": "驖驪",
@@ -3936,9 +3937,9 @@
       "g": 67,
       "b": 59,
       "hex": "#46433B",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "駟驖孔阜，六轡在手；公之媚子，從公於狩。",
+      "author": "佚名",
+      "sentenceFrom": "詩經·秦風·駟驖"
     },
     {
       "name": "京元",
@@ -3947,9 +3948,9 @@
       "g": 50,
       "b": 44,
       "hex": "#31322C",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "元青元在繳緇之間，合青則為冥色。",
+      "author": "李斗",
+      "sentenceFrom": "揚州畫舫錄"
     }
   ],
   [
@@ -3960,9 +3961,9 @@
       "g": 249,
       "b": 228,
       "hex": "#F6F9E4",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": "",
+      "sentence": "登高新酒傾酇白，弔古空山湧帝青。",
+      "author": "唐伯虎",
+      "sentenceFrom": "與朱彥明諸 子同遊保叔寺",
       "fontColor": "#343333"
     },
     {
@@ -3972,9 +3973,9 @@
       "g": 235,
       "b": 194,
       "hex": "#ECEBC2",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": "",
+      "sentence": "江柳斷腸色，黃絲垂未齊。",
+      "author": "戎昱",
+      "sentenceFrom": "江上柳送人",
       "fontColor": "#343333"
     },
     {
@@ -3984,9 +3985,9 @@
       "g": 211,
       "b": 132,
       "hex": "#E1D384",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "田赤金，色淡黃，以淡金打成。",
+      "author": "迮朗",
+      "sentenceFrom": "繪事瑣言"
     },
     {
       "name": "黃封",
@@ -3995,9 +3996,9 @@
       "g": 178,
       "b": 114,
       "hex": "#CAB272",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "花霧輕冪冪為我取黃封，親拆官泥赤。",
+      "author": "蘇軾",
+      "sentenceFrom": "岐亭五首其一"
     },
     {
       "name": "丁香褐",
@@ -4006,9 +4007,9 @@
       "g": 150,
       "b": 131,
       "hex": "#BD9683",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "丁香褐，用肉紅為主，入少槐花合。",
+      "author": "陶宗儀",
+      "sentenceFrom": "輟耕錄·寫相訣"
     },
     {
       "name": "棠梨褐",
@@ -4017,9 +4018,9 @@
       "g": 90,
       "b": 66,
       "hex": "#955A42",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "棠梨褐，用粉入土黃，銀硃合。",
+      "author": "陶宗儀",
+      "sentenceFrom": "南村輟耕錄·採繪法"
     },
     {
       "name": "朱石栗",
@@ -4028,9 +4029,9 @@
       "g": 73,
       "b": 44,
       "hex": "#81492C",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "廣州無栗，惟勤州山中有石栗，一年方熟，皮厚而肉少，味似胡桃仁。",
+      "author": "劉恂",
+      "sentenceFrom": "嶺表錄異"
     },
     {
       "name": "棗褐",
@@ -4039,9 +4040,9 @@
       "g": 54,
       "b": 26,
       "hex": "#68361A",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "染棗褐，以十兩帛為率。蘇木四兩，明礬一兩為細。",
+      "author": "佚名",
+      "sentenceFrom": "居家必用事類全集"
     },
     {
       "name": "秋藍",
@@ -4050,9 +4051,9 @@
       "g": 146,
       "b": 159,
       "hex": "#7D929F",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "染羅衣，秋藍難著色；不是無心人，為作台邛客。",
+      "author": "李賀",
+      "sentenceFrom": "河陽歌"
     },
     {
       "name": "育陽染",
@@ -4061,9 +4062,9 @@
       "g": 100,
       "b": 112,
       "hex": "#576470",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "䋭，帛青經縹緯，一曰育陽染也。",
+      "author": "許慎",
+      "sentenceFrom": "說文解字"
     },
     {
       "name": "霽藍",
@@ -4072,9 +4073,9 @@
       "g": 70,
       "b": 84,
       "hex": "#3C4654",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "霽青器，亦官古戶兼仿造，鎮陶無專作霽青器者。",
+      "author": "藍浦",
+      "sentenceFrom": "景德鎮陶錄"
     },
     {
       "name": "獺見",
@@ -4083,9 +4084,9 @@
       "g": 29,
       "b": 41,
       "hex": "#151D29",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "花妥鶯捎蝶，溪喧獺趁魚。",
+      "author": "杜甫",
+      "sentenceFrom": "重過何氏五首"
     },
     {
       "name": "井天",
@@ -4094,9 +4095,9 @@
       "g": 201,
       "b": 204,
       "hex": "#A4C9CC",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "修垣蔽軒楹，如觀坐井天。",
+      "author": "陳棣",
+      "sentenceFrom": "再次韻柏桐軒"
     },
     {
       "name": "正青",
@@ -4105,9 +4106,9 @@
       "g": 168,
       "b": 175,
       "hex": "#6CA8AF",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "繰成白雪桑重綠，割盡黃雲稻正青。",
+      "author": "王安石",
+      "sentenceFrom": "木末"
     },
     {
       "name": "扁青",
@@ -4116,9 +4117,9 @@
       "g": 146,
       "b": 150,
       "hex": "#509296",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "帝賜後村奎畫在，作堂安用扁青塗。",
+      "author": "劉克莊",
+      "sentenceFrom": "四和其二"
     },
     {
       "name": "䌦色",
@@ -4127,9 +4128,9 @@
       "g": 107,
       "b": 104,
       "hex": "#226B68",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "䌦，大到切绿也。",
+      "author": "顧野王",
+      "sentenceFrom": "玉篇"
     }
   ],
   [
@@ -4140,9 +4141,9 @@
       "g": 93,
       "b": 127,
       "hex": "#995D7F",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "紫府仙人號寶燈，雲漿未飲結成冰。",
+      "author": "李商隱",
+      "sentenceFrom": "無題"
     },
     {
       "name": "地血",
@@ -4151,9 +4152,9 @@
       "g": 70,
       "b": 98,
       "hex": "#814662",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "龍精埋地血，馬革繡苔衣。",
+      "author": "王余佑",
+      "sentenceFrom": "過立節吊袁紫煙將軍"
     },
     {
       "name": "芥拾紫",
@@ -4162,9 +4163,9 @@
       "g": 38,
       "b": 65,
       "hex": "#602641",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "雋手芥拾紫，忠肝蒲伏青。",
+      "author": "洪諮夔",
+      "sentenceFrom": "何正言挽詩"
     },
     {
       "name": "油紫",
@@ -4173,9 +4174,9 @@
       "g": 11,
       "b": 47,
       "hex": "#420B2F",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "嘉祐染者，既入其色，復漬以油，故色重而近黑者，曰油紫。",
+      "author": "王得臣",
+      "sentenceFrom": "麈史·禮儀"
     },
     {
       "name": "骨縹",
@@ -4184,9 +4185,9 @@
       "g": 227,
       "b": 199,
       "hex": "#EBE3C7",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": "",
+      "sentence": "縹，帛青白色也。",
+      "author": "許慎",
+      "sentenceFrom": "說文解字",
       "fontColor": "#343333"
     },
     {
@@ -4196,9 +4197,9 @@
       "g": 197,
       "b": 160,
       "hex": "#CAC5A0",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "介於白色和淡青色、淡綠色之間的軟玉。",
+      "author": "佚名",
+      "sentenceFrom": "清代宫廷玉器"
     },
     {
       "name": "綠豆褐",
@@ -4207,9 +4208,9 @@
       "g": 137,
       "b": 107,
       "hex": "#92896B",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "內有青綠不可隔間處，於綠淺暈中用藤黃汁罩，謂之綠豆褐。",
+      "author": "李誡",
+      "sentenceFrom": "營造法式·彩畫作制度"
     },
     {
       "name": "冥色",
@@ -4218,9 +4219,9 @@
       "g": 95,
       "b": 77,
       "hex": "#665F4D",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "壚埴冥色，剛土柔種，免耕殺匿，使農事得。",
+      "author": "呂不韋",
+      "sentenceFrom": "呂氏春秋·辯土"
     },
     {
       "name": "肉紅",
@@ -4229,9 +4230,9 @@
       "g": 197,
       "b": 184,
       "hex": "#DDC5B8",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "便丐春工，染得桃紅似肉紅。",
+      "author": "蘇軾",
+      "sentenceFrom": "減字木蘭花·立春"
     },
     {
       "name": "珠子褐",
@@ -4240,9 +4241,9 @@
       "g": 168,
       "b": 157,
       "hex": "#BEA89D",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "珠子褐，用粉入藤黃臙脂合。",
+      "author": "陶宗儀",
+      "sentenceFrom": "南村輟耕錄·採繪法"
     },
     {
       "name": "鷹背褐",
@@ -4251,9 +4252,9 @@
       "g": 109,
       "b": 95,
       "hex": "#8F6D5F",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "鷹背褐，用粉入檀子煙墨土黃合。",
+      "author": "陶宗儀",
+      "sentenceFrom": "南村輟耕錄·採繪法"
     },
     {
       "name": "麝香褐",
@@ -4262,9 +4263,9 @@
       "g": 75,
       "b": 60,
       "hex": "#694B3C",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "麝香褐，用土黃、檀子入煙墨合。",
+      "author": "陶宗儀",
+      "sentenceFrom": "南村輟耕錄·採繪法"
     },
     {
       "name": "石英",
@@ -4273,9 +4274,9 @@
       "g": 182,
       "b": 187,
       "hex": "#C8B6BB",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "香甘方士青精飯，潤滑仙家紫石英。",
+      "author": "何喬新",
+      "sentenceFrom": "齋居賜蜜餌"
     },
     {
       "name": "銀褐",
@@ -4284,9 +4285,9 @@
       "g": 141,
       "b": 155,
       "hex": "#9C8D9B",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "銀褐，用粉入藤黃合。",
+      "author": "陶宗儀",
+      "sentenceFrom": "南村輟耕錄·採繪法"
     },
     {
       "name": "煙紅",
@@ -4295,9 +4296,9 @@
       "g": 133,
       "b": 143,
       "hex": "#9D858F",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "翠微泛樽綠，苔蘚分煙紅。",
+      "author": "張為",
+      "sentenceFrom": "秋醉歌"
     },
     {
       "name": "紫誥",
@@ -4306,9 +4307,9 @@
       "g": 85,
       "b": 93,
       "hex": "#76555D",
-      "sentence": "",
-      "author": "",
-      "sentenceFrom": ""
+      "sentence": "紫浩仍兼綰，黃麻似六經。",
+      "author": "杜甫",
+      "sentenceFrom": "贈翰林張四學士"
     }
   ]
 ]

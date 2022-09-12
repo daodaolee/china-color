@@ -2,7 +2,8 @@
   <div class="w100 h100 color" :style="containerStyle">
     <div class="color-wrapper"></div>
     <div class="w100 h100 color-container">
-      <div class="h100 color-container-color">
+      <div class="color-container-collapse-btn" @click="collapseColor" :style="{borderColor: colorObj.fontColor  || '#ffffff'}"></div>
+      <div ref="color-container-color" class="h100 color-container-color">
         <div class="color-container-color-item" v-for="(color, index) in colorData" :key="index">
           <div class="color-container-color-item-solarterm">
             {{ color[0].category }}
@@ -63,7 +64,7 @@
             :style="{ animationDelay: `${getTime(index)}s` }">
             {{ item }}
             <br v-if="
-              item === '，' || item === '。' || item === '；' || item === '、'
+              item === '，' || item === '。' || item === '；' || item === '、'|| item === '：'
             " />
           </span>
         </div>
@@ -122,14 +123,14 @@ export default {
       let time = 0
       switch (exec) {
       case 0:
-        time = 0.18
+        time = 0.15
         break
       case 1:
       case 7:
         time = 0.3
         break
       case 2:
-        time = 0.9
+        time = 0.5
         break
       case 3:
       case 6:
@@ -139,7 +140,7 @@ export default {
         time = 0.4
         break
       case 5:
-        time = 1
+        time = 0.2
         break
       }
       return time * Math.random() + 0.4
@@ -174,6 +175,16 @@ export default {
         }
         this.isActive = true
       }, 50)
+    },
+    collapseColor(){
+      let colorRef = this.$refs['color-container-color']
+      console.log(colorRef.style.left)
+      if (!colorRef.style.left || colorRef.style.left === '-100%'){
+        colorRef.style.left = 0
+      } else {
+        colorRef.style.left = '-100%'
+      }
+     
     }
   }
 }
@@ -191,18 +202,26 @@ export default {
   }
 
   &-container {
-    max-width: 1000px;
+    max-width: 1100px;
     margin: 0 auto;
-    // padding-right: 2em;
     position: relative;
+    &-collapse-btn{
+      display: none;
+      position: fixed;
+      z-index: 999;
+      top: 1em;
+      left: 0.9em;
+      padding: 0.3em;
+      border-radius: 50%;
+      border: 0.17em solid;
+    }
 
     &-color {
       position: absolute;
       top: 0;
       left: 0;
-      // height: calc(100vh - 2em);
       overflow-y: scroll;
-      width: 55%;
+      width: 47%;
       .scrollbar-hide();
       
 
@@ -261,7 +280,7 @@ export default {
     &-name {
       position: absolute;
       top: 12vh;
-      right: 0;
+      right: 4em;
       display: block;
 
       &-title {
@@ -278,12 +297,12 @@ export default {
       &-rgb{
         position: absolute;
         transform: translate(0%, -10%);
-        top:0;
+        top: -1.5em;
         left:125%;
         // right: 0;
         display: flex;
         flex-direction: column;
-        font-family: "Helvetica Neue", sans-serif;
+        font-family: cursive;
         p{
           padding-bottom: 2.2em;
           display: flex;
@@ -312,8 +331,8 @@ export default {
     &-sentence {
       writing-mode: vertical-rl;
       position: absolute;
-      bottom: 0em;
-      right: 1em;
+      bottom: 1em;
+      right: 4em;
 
       span {
         &.active {
@@ -382,19 +401,50 @@ export default {
     max-width: 100vw;
     position: relative;
   }
-
+  .color-container-collapse-btn{
+    display: block;
+  }
   .color-container-color {
+    transition: all 0.2s;
     position: fixed;
-    top: 0;
-    left: 0;
-    background-color: rgba(255, 255, 255, 0.7);
+    top: 4em;
+    left:-100%;
+    width: 3em;
+    // height: calc(100% - 4em);
     z-index: 10;
+    // display: flex;
+    &-item{
+      top: 0;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      &-solarterm{
+        padding-right: 0;
+        padding-bottom: 1em;
+        font-weight: bold;
+        opacity: 0.7;
+      }
+      &-block{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        div{
+          width: 1.5em;
+          i{
+            right: 0.25em
+          }
+        }
+      }
+    }
   }
 
   .color-container-name {
     width: 100vw;
     display: flex;
     justify-content: center;
+    &-rgb{
+      display: none;
+    }
   }
 
   .color-container-sentence {
