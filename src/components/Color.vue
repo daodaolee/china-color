@@ -2,14 +2,26 @@
   <div class="w100 h100 color" :style="containerStyle">
     <div class="color-wrapper"></div>
     <div class="w100 h100 color-container">
-      <div class="color-container-collapse-btn" @click="collapseColor" :style="{borderColor: colorObj.fontColor  || '#ffffff'}"></div>
+      <div
+        class="color-container-collapse-btn"
+        @click="collapseColor"
+        :style="{ borderColor: colorObj.fontColor || '#ffffff' }"
+      ></div>
       <div ref="color-container-color" class="h100 color-container-color">
-        <div class="color-container-color-item" v-for="(color, index) in colorData" :key="index">
+        <div
+          class="color-container-color-item"
+          v-for="(color, index) in colorData"
+          :key="index"
+        >
           <div class="color-container-color-item-solarterm">
             {{ color[0].category }}
           </div>
           <div class="color-container-color-item-block">
-            <div v-for="(item, i) in color" :key="`${index}_${i}`" @click="setColor(item)">
+            <div
+              v-for="(item, i) in color"
+              :key="`${index}_${i}`"
+              @click="setColor(item)"
+            >
               <span>
                 {{ item.name }}
               </span>
@@ -20,64 +32,97 @@
       </div>
       <div :class="['color-container-name', isActive ? 'active' : '']">
         <div class="color-container-name-title">
-          <span v-for="(item, index) in colorObj.name.split('')" :key="index"
-            :style="{ animationDelay: `${index * 0.1}s` }">
+          <span
+            v-for="(item, index) in colorObj.name.split('')"
+            :key="index"
+            :style="{ animationDelay: `${index * 0.1}s` }"
+          >
             {{ item }}
           </span>
         </div>
         <div class="color-container-name-rgb">
           <p>
             <span>C</span>
-            <span>{{colorObj.r}}</span>
+            <span>{{ colorObj.r }}</span>
           </p>
           <p>
             <span>M</span>
-            <span>{{colorObj.r}}</span>
+            <span>{{ colorObj.r }}</span>
           </p>
           <p>
             <span>Y</span>
-            <span>{{colorObj.g}}</span>
+            <span>{{ colorObj.g }}</span>
           </p>
           <p>
             <span>K</span>
-            <span>{{colorObj.b}}</span>
+            <span>{{ colorObj.b }}</span>
           </p>
           <p>
             <span>R</span>
-            <span>{{colorObj.r}}</span>
+            <span>{{ colorObj.r }}</span>
           </p>
           <p>
             <span>G</span>
-            <span>{{colorObj.g}}</span>
+            <span>{{ colorObj.g }}</span>
           </p>
           <p>
             <span>B</span>
-            <span>{{colorObj.b}}</span>
+            <span>{{ colorObj.b }}</span>
           </p>
         </div>
-        
       </div>
 
       <div class="color-container-sentence">
         <div class="sentence">
-          <span :class="[isActive ? 'active' : '']" v-for="(item, index) in colorObj.sentence.split('')" :key="index"
-            :style="{ animationDelay: `${getTime(index)}s` }">
+          <span
+            :class="[isActive ? 'active' : '']"
+            v-for="(item, index) in colorObj.sentence.split('')"
+            :key="index"
+            :style="{ animationDelay: `${getTime(index)}s` }"
+          >
             {{ item }}
-            <br v-if="
-              item === '，' || item === '。' || item === '；' || item === '、'|| item === '：'
-            " />
+            <br
+              v-if="
+                item === '，' ||
+                item === '。' ||
+                item === '；' ||
+                item === '、' ||
+                item === '：'
+              "
+            />
           </span>
         </div>
         <div class="sentenceFrom">
-          <span :class="[isActive ? 'active' : '']" v-for="(item, index) in colorObj.sentenceFrom.split('')"
-            :key="index" :style="{ animationDelay: `${getTime(index)}s` }">
+          <span
+            :class="[isActive ? 'active' : '']"
+            v-for="(item, index) in colorObj.sentenceFrom.split('')"
+            :key="index"
+            :style="{ animationDelay: `${getTime(index)}s` }"
+          >
             {{ item }}
             <br v-if="item === ' '" />
           </span>
         </div>
       </div>
     </div>
-    <p class="color-copyright">中國傳統色 故宮裡的色彩美學 二十字節氣 七十二物候 東方審美</p>
+    <p class="color-copyright">
+      中國傳統色 故宮裡的色彩美學 二十字節氣 七十二物候 東方審美
+    </p>
+    <div class="color-operate">
+      <div
+        v-clipboard:copy="colorObj.hex"
+        v-clipboard:success="copy"
+      
+      >
+        copy
+      </div>
+      &nbsp;
+      <img
+        src="https://img.shields.io/badge/GitHub-100000?logo=github&logoColor=white"
+        alt=""
+        @click="toUrl('https://github.com/daodaolee/china-color')"
+      />
+    </div>
   </div>
 </template>
 
@@ -176,15 +221,19 @@ export default {
         this.isActive = true
       }, 50)
     },
-    collapseColor(){
+    collapseColor() {
       let colorRef = this.$refs['color-container-color']
-      console.log(colorRef.style.left)
-      if (!colorRef.style.left || colorRef.style.left === '-100%'){
-        colorRef.style.left = 0
+      if (colorRef.style.transform !== 'translate(0px, 0px)') {
+        colorRef.style.transform = 'translate(0, 0)'
       } else {
-        colorRef.style.left = '-100%'
+        colorRef.style.transform = 'translate(-100%, 0)'
       }
-     
+    },
+    copy(){
+      alert('🎉🎉🎉🎉🎉')
+    },
+    toUrl(url) {
+      window.open(url, '_blank')
     }
   }
 }
@@ -198,14 +247,15 @@ export default {
     position: fixed;
     width: 100%;
     height: 100%;
-    background-image: url('../assets/imgs/grain.png');
+    background-image: url("../assets/imgs/grain.png");
   }
 
   &-container {
     max-width: 1100px;
     margin: 0 auto;
     position: relative;
-    &-collapse-btn{
+
+    &-collapse-btn {
       display: none;
       position: fixed;
       z-index: 999;
@@ -223,10 +273,9 @@ export default {
       overflow-y: scroll;
       width: 47%;
       .scrollbar-hide();
-      
 
       &-item {
-        width:calc(100% - 0.2em);
+        width: calc(100% - 0.2em);
         position: relative;
         top: 3.125em;
         display: flex;
@@ -259,7 +308,7 @@ export default {
             i {
               display: inline-block;
               position: absolute;
-              right: 1em;
+              right: 1.05em;
               top: -0.125em;
               width: 0.375em;
               height: 1.9em;
@@ -294,33 +343,37 @@ export default {
           animation: show 1.5s ease-out forwards;
         }
       }
-      &-rgb{
+
+      &-rgb {
         position: absolute;
         transform: translate(0%, -10%);
         top: -1.5em;
-        left:125%;
+        left: 125%;
         // right: 0;
         display: flex;
         flex-direction: column;
         font-family: cursive;
-        p{
+
+        p {
           padding-bottom: 2.2em;
           display: flex;
           align-items: center;
+
           // display: flex;
           // flex-direction: column;
-          span:first-child{
+          span:first-child {
             // font-size: 0.3em;
             // padding-bottom: 2em;
             transform: scale(0.65);
             display: inline-block;
             // padding-right: 0.05em;
-            position:relative;
+            position: relative;
             top: -0.7em;
-            left:0.1em
+            left: 0.1em;
           }
-          span:last-child{
-            font-size:1.1em;
+
+          span:last-child {
+            font-size: 1.1em;
             // padding-top: .2em;
             // padding-bottom: 1.5em;
           }
@@ -357,7 +410,7 @@ export default {
             &:before {
               content: "「";
               position: relative;
-              top: 0.3em
+              top: 0.3em;
             }
           }
 
@@ -365,7 +418,7 @@ export default {
             &:after {
               content: "」";
               position: relative;
-              bottom: 0.3em
+              bottom: 0.3em;
             }
           }
         }
@@ -384,6 +437,24 @@ export default {
     letter-spacing: 0.625em;
     height: max-content;
   }
+
+  &-operate {
+    position: fixed;
+    bottom: 0.5em;
+    right: 0.5em;
+    display: flex;
+    cursor: pointer;
+
+    div {
+      // width: 30px;
+      // height: 20px;
+      background: black;
+      color: white;
+      padding: 2px 5px;
+      font-size: 12px;
+      border-radius: 4px;
+    }
+  }
 }
 
 @keyframes show {
@@ -396,42 +467,50 @@ export default {
   }
 }
 
-@media screen and (max-width:780px) {
+@media screen and (max-width: 780px) {
   .color-container {
     max-width: 100vw;
     position: relative;
   }
-  .color-container-collapse-btn{
+
+  .color-container-collapse-btn {
     display: block;
   }
+
   .color-container-color {
     transition: all 0.2s;
     position: fixed;
     top: 4em;
-    left:-100%;
+    left: 0;
     width: 3em;
+    transform: translate(-100%, 0);
     // height: calc(100% - 4em);
     z-index: 10;
+
     // display: flex;
-    &-item{
+    &-item {
       top: 0;
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      &-solarterm{
+
+      &-solarterm {
         padding-right: 0;
         padding-bottom: 1em;
         font-weight: bold;
         opacity: 0.7;
       }
-      &-block{
+
+      &-block {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        div{
+
+        div {
           width: 1.5em;
-          i{
-            right: 0.25em
+
+          i {
+            right: 0.25em;
           }
         }
       }
@@ -442,7 +521,9 @@ export default {
     width: 100vw;
     display: flex;
     justify-content: center;
-    &-rgb{
+    right: 0;
+
+    &-rgb {
       display: none;
     }
   }
@@ -452,6 +533,7 @@ export default {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    right: 0;
   }
 
   .color-copyright {
