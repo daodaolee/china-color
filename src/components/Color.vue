@@ -2,26 +2,15 @@
   <div class="w100 h100 color" :style="containerStyle">
     <div class="color-wrapper"></div>
     <div class="w100 h100 color-container">
-      <div
-        class="color-container-collapse-btn"
-        @click="collapseColor"
-        :style="{ borderColor: colorObj.fontColor || '#ffffff' }"
-      ></div>
+      <div class="color-container-collapse-btn" @click="collapseColor"
+        :style="{ borderColor: colorObj.fontColor || '#ffffff' }"></div>
       <div ref="color-container-color" class="h100 color-container-color">
-        <div
-          class="color-container-color-item"
-          v-for="(color, index) in colorData"
-          :key="index"
-        >
+        <div class="color-container-color-item" v-for="(color, index) in colorData" :key="index">
           <div class="color-container-color-item-solarterm">
             {{ color[0].category }}
           </div>
           <div class="color-container-color-item-block">
-            <div
-              v-for="(item, i) in color"
-              :key="`${index}_${i}`"
-              @click="setColor(item)"
-            >
+            <div v-for="(item, i) in color" :key="`${index}_${i}`" @click="setColor(item)">
               <span>
                 {{ item.name }}
               </span>
@@ -32,11 +21,8 @@
       </div>
       <div :class="['color-container-name', isActive ? 'active' : '']">
         <div class="color-container-name-title">
-          <span
-            v-for="(item, index) in colorObj.name.split('')"
-            :key="index"
-            :style="{ animationDelay: `${index * 0.1}s` }"
-          >
+          <span v-for="(item, index) in colorObj.name.split('')" :key="index"
+            :style="{ animationDelay: `${index * 0.1}s` }">
             {{ item }}
           </span>
         </div>
@@ -74,31 +60,21 @@
 
       <div class="color-container-sentence">
         <div class="sentence">
-          <span
-            :class="[isActive ? 'active' : '']"
-            v-for="(item, index) in colorObj.sentence.split('')"
-            :key="index"
-            :style="{ animationDelay: `${getTime(index)}s` }"
-          >
+          <span :class="[isActive ? 'active' : '']" v-for="(item, index) in colorObj.sentence.split('')" :key="index"
+            :style="{ animationDelay: `${getTime(index)}s` }">
             {{ item }}
-            <br
-              v-if="
-                item === '，' ||
-                item === '。' ||
-                item === '；' ||
-                item === '、' ||
-                item === '：'
-              "
-            />
+            <br v-if="
+              item === '，' ||
+              item === '。' ||
+              item === '；' ||
+              item === '、' ||
+              item === '：'
+            " />
           </span>
         </div>
         <div class="sentenceFrom">
-          <span
-            :class="[isActive ? 'active' : '']"
-            v-for="(item, index) in colorObj.sentenceFrom.split('')"
-            :key="index"
-            :style="{ animationDelay: `${getTime(index)}s` }"
-          >
+          <span :class="[isActive ? 'active' : '']" v-for="(item, index) in colorObj.sentenceFrom.split('')"
+            :key="index" :style="{ animationDelay: `${getTime(index)}s` }">
             {{ item }}
             <br v-if="item === ' '" />
           </span>
@@ -109,19 +85,19 @@
       中國傳統色 故宮裡的色彩美學 二十字節氣 七十二物候 東方審美
     </p>
     <div class="color-operate">
-      <div
-        v-clipboard:copy="colorObj.hex"
-        v-clipboard:success="copy"
-      
-      >
-        copy
+      <div class="tooltip">
+        <div class="tooltip-item">
+          <p v-clipboard:copy="colorObj.hex" v-clipboard:success="copyHandle">HEX</p>
+          <p v-clipboard:copy="`rgb(${colorObj.r}, ${colorObj.g}, ${colorObj.b})`" v-clipboard:success="copyHandle">RGB</p>
+        </div>
+        <div class="copyBtn">
+          copy
+        </div>
       </div>
+
       &nbsp;
-      <img
-        src="https://img.shields.io/badge/GitHub-100000?logo=github&logoColor=white"
-        alt=""
-        @click="toUrl('https://github.com/daodaolee/china-color')"
-      />
+      <img src="https://img.shields.io/badge/GitHub-100000?logo=github&logoColor=white" alt=""
+        @click="toUrl('https://github.com/daodaolee/china-color')" />
     </div>
   </div>
 </template>
@@ -229,7 +205,7 @@ export default {
         colorRef.style.transform = 'translate(-100%, 0)'
       }
     },
-    copy(){
+    copyHandle() {
       alert('🎉🎉🎉🎉🎉')
     },
     toUrl(url) {
@@ -445,13 +421,70 @@ export default {
     display: flex;
     cursor: pointer;
 
-    div {
-      // width: 30px;
-      // height: 20px;
+    .tooltip {
+      position: relative;
+    }
+
+    .tooltip .tooltip-item {
+      visibility: hidden;
+      color: #fff;
+      text-align: center;
+      padding-bottom: 10px;
+      position: absolute;
+      z-index: 1;
+      bottom: 100%;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 0.625em;
+      opacity: 0;
+      transition: opacity 1s;
+      display: flex;
+
+      &::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        border-width: 0.5em;
+        border-style: solid;
+        border-color: black transparent transparent transparent;
+      }
+
+      p {
+        padding: 3px 8px;
+        background-color: black;
+
+        &:first-child {
+          border-top-left-radius: 4px;
+          border-bottom-left-radius: 4px;
+        }
+
+        &:last-child {
+          border-top-right-radius: 4px;
+          border-bottom-right-radius: 4px;
+        }
+
+        &:not(:last-child) {
+          padding-right: 1em;
+        }
+
+        &:not(:first-child) {
+          padding-left: 1em;
+        }
+      }
+    }
+
+    .tooltip:hover .tooltip-item {
+      visibility: visible;
+      opacity: 1;
+    }
+
+    .copyBtn {
       background: black;
       color: white;
       padding: 2px 5px;
-      font-size: 12px;
+      font-size: 0.625em;
       border-radius: 4px;
     }
   }
