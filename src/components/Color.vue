@@ -27,7 +27,7 @@
           </span>
         </div>
         <div class="color-container-name-rgb">
-          <p>
+          <!-- <p>
             <span>C</span>
             <span>{{ colorObj.r }}</span>
           </p>
@@ -42,8 +42,8 @@
           <p>
             <span>K</span>
             <span>{{ colorObj.b }}</span>
-          </p>
-          <p>
+          </p> -->
+          <!-- <p>
             <span>R</span>
             <span>{{ colorObj.r }}</span>
           </p>
@@ -54,7 +54,7 @@
           <p>
             <span>B</span>
             <span>{{ colorObj.b }}</span>
-          </p>
+          </p> -->
         </div>
       </div>
 
@@ -88,7 +88,8 @@
       <div class="tooltip">
         <div class="tooltip-item">
           <p v-clipboard:copy="colorObj.hex" v-clipboard:success="copyHandle">HEX</p>
-          <p v-clipboard:copy="`rgb(${colorObj.r}, ${colorObj.g}, ${colorObj.b})`" v-clipboard:success="copyHandle">RGB</p>
+          <p v-clipboard:copy="`rgb(${colorObj.r}, ${colorObj.g}, ${colorObj.b})`" v-clipboard:success="copyHandle">RGB
+          </p>
         </div>
         <div class="copyBtn">
           copy
@@ -305,7 +306,7 @@ export default {
     &-name {
       position: absolute;
       top: 12vh;
-      right: 4em;
+      right: 2em;
       display: block;
 
       &-title {
@@ -361,7 +362,7 @@ export default {
       writing-mode: vertical-rl;
       position: absolute;
       bottom: 1em;
-      right: 4em;
+      right: 2em;
 
       span {
         &.active {
@@ -483,7 +484,7 @@ export default {
     .copyBtn {
       background: black;
       color: white;
-      padding: 2px 5px;
+      padding: 3px 5px;
       font-size: 0.625em;
       border-radius: 4px;
     }
