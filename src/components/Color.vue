@@ -82,8 +82,9 @@
       </div>
     </div>
     <p class="color-copyright">
-      中國傳統色 故宮裡的色彩美學 二十字節氣 七十二物候 東方審美
+      中國傳統色 故宮裡的色彩美學 二十字節氣 浙ICP備2022027583號-1
     </p>
+    
     <div class="color-operate">
       <div class="tooltip">
         <div class="tooltip-item">
