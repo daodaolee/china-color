@@ -425,6 +425,7 @@ export default {
 
     .tooltip {
       position: relative;
+      font-family: "sans-serif";
     }
 
     .tooltip .tooltip-item {
@@ -483,7 +484,8 @@ export default {
     }
 
     .copyBtn {
-      background: black;
+      font-family: "sans-serif";
+      background: #1a0c0c;
       color: white;
       padding: 3px 5px;
       font-size: 0.625em;
